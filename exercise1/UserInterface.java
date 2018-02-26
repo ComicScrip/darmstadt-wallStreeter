@@ -1,12 +1,6 @@
-package examples;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-
-/*
- * 21. 5. 10
- */
 
 /**
  *

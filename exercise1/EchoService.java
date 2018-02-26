@@ -1,7 +1,3 @@
-package examples;
-
-// 22.10. 10
-
 /**
  *
  * @author Peter Altenberd

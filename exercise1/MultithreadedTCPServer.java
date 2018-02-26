@@ -1,5 +1,3 @@
-package examples;
-
 import java.net.*;
 
 /**
@@ -19,7 +17,7 @@ public class MultithreadedTCPServer {
             Socket client = listenSocket.accept();
             System.out.println("Connection with: " +     // Output connection
                     client.getRemoteSocketAddress());   // (Client) address
-            new examples.EchoService(client).start();
+            new EchoService(client).start();
         }
     }
 }
