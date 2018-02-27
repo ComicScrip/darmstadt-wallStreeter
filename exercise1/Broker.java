@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.UUID;
 
 public class Broker {
     private ArrayList<StockBid> buyActionList;
@@ -26,30 +27,86 @@ public class Broker {
     }
 
     public void addSellActionToList(StockAsk action){
+        action.setStatus(StockActionStatus.PENDING);
         sellActionList.add(action);
+        establishTrade();
     }
 
     public void addBuyActionToList(StockBid action){
+        action.setStatus(StockActionStatus.PENDING);
         buyActionList.add(action);
+        establishTrade();
     }
 
-    public double getHighestBid(){
-        double price ;
+    public StockAsk getSellActionByUuid(UUID uuid)
+    {
+        for(StockAsk action : sellActionList)
+        {
+            if(action.getUUID().equals(uuid))
+            {
+                return action;
+            }
+        }
+        return null;
+    }
+
+    public StockBid getBuyActionByUuid(UUID uuid)
+    {
+        for(StockBid action : buyActionList)
+        {
+            if(action.getUUID().equals(uuid))
+            {
+                return action;
+            }
+        }
+        return null;
+    }
+
+    public StockBid getHighestBid(){
         double max = buyActionList.get(0).getPrice();
+        StockBid maxBid = buyActionList.get(0);
+
         for(int i = 0; i < buyActionList.size(); i++) {
             StockBid bid = buyActionList.get(i);
-            if(bid.getPrice() > max) max = bid.getPrice();
+            if(bid.getPrice() > max)
+            {
+                max = bid.getPrice();
+                maxBid = bid;
+            }
         }
-        return max;
+        return maxBid;
     }
 
-    public double getLowestAsk(){
+    public StockAsk getLowestAsk(){
         double min = sellActionList.get(0).getPrice();
+        StockAsk minAsk = sellActionList.get(0);
+
         for(int i = 0; i < sellActionList.size(); i++) {
             StockAsk ask = sellActionList.get(i);
-            if(ask.getPrice() > min) min = ask.getPrice();
+            if(ask.getPrice() > min)
+            {
+                min = ask.getPrice();
+                minAsk = ask;
+            }
         }
-        return min;
+        return minAsk;
+    }
+
+    public void establishTrade()
+    {
+        StockBid highestBid = getHighestBid();
+        StockAsk lowestAsk = getLowestAsk();
+
+        if((highestBid.getStatus() == StockActionStatus.OK) || (lowestAsk.getStatus() == StockActionStatus.OK))
+        {
+            return;
+        }
+
+        if(highestBid.getPrice() >= lowestAsk.getPrice())
+        {
+            highestBid.setStatus(StockActionStatus.OK);
+            lowestAsk.setStatus(StockActionStatus.OK);
+        }
     }
 
 }

@@ -72,22 +72,27 @@ public class StockActionService extends Thread{
     {
         try
         {
+            String line = fromClient.readLine();
             switch(method)
             {
                 case "addSellActionToList":
-                    //broker.addSellActionToList();
-                    toClient.writeBytes("Stock action sell request received. STATUS : " + '\n');
+                    StockAsk stockAsk = new StockAsk();
+                    stockAsk.hydrateFromServerString(line);
+                    broker.addSellActionToList(stockAsk);
+                    toClient.writeBytes("Stock action ask request received. STATUS : " + stockAsk.getStatus().name() + '\n');
                     break;
                 case "getSellActionByUuid":
                     //broker.getSellActionByUuid();
                     break;
                 case "addBuyActionToList":
-                    //broker.addBuyActionToList();
-                    toClient.writeBytes("Action not allowed. Please restart the service" + '\n');
+                    StockBid stockBid = new StockBid();
+                    stockBid.hydrateFromServerString(line);
+                    broker.addBuyActionToList(stockBid);
+                    toClient.writeBytes("Stock action bid request received. STATUS : " + stockBid.getStatus().name() + '\n');
                     break;
                 case "getBuyActionByUuid":
                     //broker.getBuyActionByUuid();
-                    toClient.writeBytes("Stock action bid request received. STATUS : " + '\n');
+                    toClient.writeBytes("Action not allowed. Please restart the service" + '\n');
                     break;
                 default:
                     toClient.writeBytes("Action not allowed. Please restart the service" + '\n');
