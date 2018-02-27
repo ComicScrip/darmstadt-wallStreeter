@@ -1,5 +1,6 @@
 import java.util.HashMap;
 import java.util.Map;
+import java.util.UUID;
 
 public class Message {
     final static String MESSAGE_DELIMIER = "---------------";
@@ -12,27 +13,31 @@ public class Message {
     public Message(){ }
 
     public Message(String strRepresentation) {
-        String header
-        String fieldAssignements[] = strRepresentation.split("\n");
+        String messageParts[] = strRepresentation.split(HEADER_DELIMITER);
+        parseFields(messageParts[0], true);
+        parseFields(messageParts[1], false);
+
+    }
+
+    private void parseFields(String str, boolean header){
+        String fieldAssignements[] = str.split(FIELD_DELIMIER);
         String assignementParts[] = null;
         String fieldName = null;
         String fieldValue = null;
+
         for (String fieldAssignement: fieldAssignements) {
-            assignementParts = fieldAssignement.split("=");
+            assignementParts = fieldAssignement.split(KV_DELIMITER);
             if(assignementParts.length != 2) break;
             fieldName = assignementParts[0];
             fieldValue = assignementParts[1];
 
-            switch (fieldName) {
-                case "stockName": setStock(new Stock(StockName.valueOf(fieldValue)));
-                case "price": setPrice(Double.parseDouble(fieldValue));
-                case "status": setStatus(StockActionStatus.valueOf(fieldValue));
-                case "uuid": setUUID(UUID.fromString(fieldValue));
+            if(header) {
+                setHeaderField(MessageHeaderField.valueOf(fieldName), fieldValue);
+            } else {
+                setBodyParam(fieldName, fieldValue);
             }
         }
     }
-
-
 
     @Override
     public String toString() {
