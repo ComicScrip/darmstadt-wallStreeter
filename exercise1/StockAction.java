@@ -1,3 +1,4 @@
+import java.util.Map;
 import java.util.UUID;
 
 public abstract class StockAction {
@@ -30,7 +31,11 @@ public abstract class StockAction {
     }
 
     public void hydrateFromServerString(String strRepresentation){
-
+        Message m = new Message(strRepresentation);
+        setStock(StockName.valueOf(m.getBody().get("stockName")));
+        setUUID(UUID.fromString(m.getBody().get("uuid")));
+        setPrice(Double.parseDouble(m.getBody().get("price")));
+        setStatus(StockActionStatus.valueOf(m.getBody().get("status")));
 
         /*
         String fieldAssignements[] = strRepresentation.split("\n");
