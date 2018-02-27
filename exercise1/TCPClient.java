@@ -18,14 +18,14 @@ public class TCPClient {
   static Trader trader;
 
   public static void main(String[] args) throws Exception {
-    user.output("Please provide IP:PORT of the server, or hit enter to leave the defaults");
+    user.output("Please provide IP:PORT of the server, or hit enter to leave the defaults : ");
     line = user.input();
     String ip = "localhost";
     String port = "9999";
     String lineParts[] = line.split(":");
     if(lineParts.length == 2) {
         ip = lineParts[0];
-        port =  lineParts[0];
+        port =  lineParts[1];
     }
 
     socket = new Socket(ip, Integer.parseInt(port));
