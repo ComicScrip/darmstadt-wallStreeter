@@ -52,6 +52,16 @@ public class TCPClient {
   }
 
   private static void receiveResponse() throws IOException {
-    user.output("Server answers: \n--------------\n" + fromServer.readLine() + "\n --------------\n");
+    StringBuilder response = new StringBuilder();
+    String line = fromServer.readLine();
+    do {
+        // ----------\nx=y\n\nneur=ergfiz\nrgfr=ergy\n----------
+        response.append(line);
+        line = fromServer.readLine();
+    }while(!line.equals(Message.MESSAGE_DELIMIER));
+
+    Message received = new Message(response.toString());
+    user.output("\nServer answers: \n--------------");
+    user.output(received.toString() + "\n --------------\n");
   }
 }

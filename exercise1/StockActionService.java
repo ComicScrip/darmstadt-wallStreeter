@@ -79,7 +79,7 @@ public class StockActionService extends Thread{
                     StockAsk stockAsk = new StockAsk();
                     stockAsk.hydrateFromServerString(line);
                     broker.addSellActionToList(stockAsk);
-                    toClient.writeBytes("Stock action ask request received. STATUS : " + stockAsk.getStatus().name() + '\n');
+                    toClient.writeBytes(stockAsk.toMessage().toString());
                     break;
                 case "getSellActionByUuid":
                     //broker.getSellActionByUuid();
@@ -88,7 +88,7 @@ public class StockActionService extends Thread{
                     StockBid stockBid = new StockBid();
                     stockBid.hydrateFromServerString(line);
                     broker.addBuyActionToList(stockBid);
-                    toClient.writeBytes("Stock action bid request received. STATUS : " + stockBid.getStatus().name() + '\n');
+                    toClient.writeBytes(stockBid.toMessage().toString());
                     break;
                 case "getBuyActionByUuid":
                     //broker.getBuyActionByUuid();
