@@ -1,5 +1,4 @@
 public enum StockName {
-    NONE,
     AAPL,
     IBM,
     MSFT,
