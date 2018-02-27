@@ -3,7 +3,7 @@ import java.util.Map;
 import java.util.UUID;
 
 public class Message {
-    final static String MESSAGE_DELIMIER = "---------------";
+    final static String MESSAGE_DELIMIER = "---------------\n";
     final static String KV_DELIMITER = "=";
     final static String FIELD_DELIMIER = "\n";
     final static String HEADER_DELIMITER = "\n\n";

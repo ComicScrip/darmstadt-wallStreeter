@@ -5,7 +5,7 @@ public abstract class StockAction {
     private Stock stock;
     private UUID uuid = UUID.randomUUID() ; // a unique identifier for the stock
     private double price;
-    private StockActionStatus status = StockActionStatus.NONE;
+    private StockActionStatus status = StockActionStatus.PENDING;
 
     public Message toMessage()
     {
