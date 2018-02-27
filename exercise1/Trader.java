@@ -96,7 +96,7 @@ public class Trader {
             while(true) {
                 user.output("Provide a price (float only) : ");
                 line = user.input(); if(line.equals(QUIT)) return null;
-                if(line.matches("^([+-]?\\d*\\.?\\d*)$"))
+                if(!line.isEmpty() && line.matches("^([+-]?\\d*\\.?\\d*)$"))
                 {
                     double price = Double.parseDouble(line);
                     stockAction.setPrice(price);
