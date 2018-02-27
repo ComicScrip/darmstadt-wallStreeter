@@ -30,4 +30,9 @@ public abstract class StockAction {
     {
         this.price = price;
     }
+
+    public double getPrice()
+    {
+        return price;
+    }
 }

@@ -33,9 +33,9 @@ public class Broker {
         buyActionList.add(action);
     }
 
-    public float getHighestBid(){
-        float price ;
-        float max = buyActionList.get(0).getPrice();
+    public double getHighestBid(){
+        double price ;
+        double max = buyActionList.get(0).getPrice();
         for(int i = 0; i < buyActionList.size(); i++) {
             StockBid bid = buyActionList.get(i);
             if(bid.getPrice() > max) max = bid.getPrice();
@@ -43,8 +43,8 @@ public class Broker {
         return max;
     }
 
-    public float getLowestAsk(){
-        float min = sellActionList.get(0).getPrice();
+    public double getLowestAsk(){
+        double min = sellActionList.get(0).getPrice();
         for(int i = 0; i < sellActionList.size(); i++) {
             StockAsk ask = sellActionList.get(i);
             if(ask.getPrice() > min) min = ask.getPrice();
