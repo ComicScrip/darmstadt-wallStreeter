@@ -1,6 +1,9 @@
 public enum StockName {
+    NONE,
     AAPL,
     IBM,
     MSFT,
-    ORCL
+    ORCL,
+    KFC,
+    BK
 }
