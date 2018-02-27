@@ -97,6 +97,11 @@ public class Broker {
         StockBid highestBid = getHighestBid();
         StockAsk lowestAsk = getLowestAsk();
 
+        if((highestBid.getStatus() == StockActionStatus.OK) || (lowestAsk.getStatus() == StockActionStatus.OK))
+        {
+            return;
+        }
+
         if(highestBid.getPrice() >= lowestAsk.getPrice())
         {
             highestBid.setStatus(StockActionStatus.OK);
