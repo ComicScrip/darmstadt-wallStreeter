@@ -96,14 +96,15 @@ public class FileLogger {
         }
     }
 
-    public static void main(String[] args) {
+   /* Usage exemple of fileLogger
+   public static void main(String[] args) {
         FileLogger fileLogger = new FileLogger("text.csv");
-        /*fileLogger.writeToFile("apple","100");
+        fileLogger.writeToFile("apple","100");
         fileLogger.writeToFile("apple","200");
         fileLogger.writeToFile("apple","300");
         fileLogger.writeToFile("apple","400");
-        fileLogger.writeToFile("apple","500");*/
+        fileLogger.writeToFile("apple","500");
         fileLogger.searchLogFile("24/02/18","27/02/18","apple");
-    }
+    }*/
 
 }
