@@ -2,6 +2,7 @@ public abstract class StockAction {
     private Stock stock;
     private String uuid; // a unique identifier for the stock
     private double price;
+    private StockActionStatus status = StockActionStatus.PENDING;
 
     public boolean isComplete() {
         return (stock.getName() != StockName.NONE && price > 0);
@@ -34,5 +35,15 @@ public abstract class StockAction {
     public double getPrice()
     {
         return price;
+    }
+
+    public void setStatus(StockActionStatus status)
+    {
+        this.status = status;
+    }
+
+    public StockActionStatus getStatus()
+    {
+        return status;
     }
 }
