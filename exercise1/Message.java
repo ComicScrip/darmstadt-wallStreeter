@@ -1,45 +1,37 @@
-import java.util.Dictionary;
 import java.util.HashMap;
-import java.util.Iterator;
+import java.util.Map;
 
 public class Message {
     final static String MESSAGE_DELIMIER = "---------------";
     final static String KV_DELIMITER = "=";
     final static String FIELD_DELIMIER = "\n";
     final static String HEADER_DELIMITER = "\n\n";
-    private Dictionary<MessageHeaderField, String> header;
-    private Dictionary<String, String>  body;
+    private HashMap<MessageHeaderField, String> header = new HashMap<MessageHeaderField, String>();
+    private Map<String, String> body = new HashMap<String, String>();
 
     @Override
     public String toString() {
         StringBuilder h = new StringBuilder();
-
-        Iterator<String> hi = header.elements().asIterator();
-        String hk;
-        while(hi.hasNext()){
-            hk = hi.next();
-            h.append(hk + KV_DELIMITER + header.get(hk));
-        }
-
         StringBuilder b = new StringBuilder();
 
-        Iterator<String> bi = body.elements().asIterator();
-        String bk;
-        while(bi.hasNext()){
-            bk = bi.next();
-            b.append(bk + KV_DELIMITER + header.get(bk));
+        for (Object o : header.entrySet()) {
+            Map.Entry pair = (Map.Entry) o;
+            h.append(pair.getKey() + KV_DELIMITER + pair.getValue() + FIELD_DELIMIER);
+        }
+
+        for (Object o : body.entrySet()) {
+            Map.Entry pair = (Map.Entry) o;
+            b.append(((MessageHeaderField) pair.getKey()).name() + KV_DELIMITER + pair.getValue() + FIELD_DELIMIER);
         }
 
         return MESSAGE_DELIMIER + h.toString() + HEADER_DELIMITER + b.toString() + MESSAGE_DELIMIER;
     }
 
-    private void setHeaderField(String key, String value) {
-        this.header.put(key, value);
+    public void setHeaderField(MessageHeaderField k, String v){
+        header.put(k, v);
     }
 
-    public void setHeaderField()
-
     public void setBodyParam(String key, String value) {
-        this.body.put(key, value);
+        body.put(key, value);
     }
 }
