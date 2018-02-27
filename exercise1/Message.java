@@ -16,7 +16,6 @@ public class Message {
         String messageParts[] = strRepresentation.split(HEADER_DELIMITER);
         parseFields(messageParts[0], true);
         parseFields(messageParts[1], false);
-
     }
 
     private void parseFields(String str, boolean header){
@@ -39,30 +38,45 @@ public class Message {
         }
     }
 
-    @Override
-    public String toString() {
-        StringBuilder h = new StringBuilder();
+    public String getBodyString(){
         StringBuilder b = new StringBuilder();
-
-        for (Object o : header.entrySet()) {
-            Map.Entry pair = (Map.Entry) o;
-            h.append(pair.getKey() + KV_DELIMITER + pair.getValue() + FIELD_DELIMIER);
-        }
 
         for (Object o : body.entrySet()) {
             Map.Entry pair = (Map.Entry) o;
-            b.append(((MessageHeaderField) pair.getKey()).name() + KV_DELIMITER + pair.getValue() + FIELD_DELIMIER);
+            b.append(pair.getKey() + KV_DELIMITER + pair.getValue() + FIELD_DELIMIER);
         }
 
-        return MESSAGE_DELIMIER + h.toString() + HEADER_DELIMITER + b.toString() + MESSAGE_DELIMIER;
+        return b.toString();
     }
 
-    public void setHeaderField(MessageHeaderField k, String v){
+    public void autoSetBodyLengthHeader() {
+        setHeaderField(MessageHeaderField.bodyLength, Integer.toString(getBodyString().length()));
+    }
+
+    public String getHeaderString() {
+        StringBuilder h = new StringBuilder();
+
+        for (Object o : header.entrySet()) {
+            Map.Entry pair = (Map.Entry) o;
+            h.append(((MessageHeaderField) pair.getKey()).name() + KV_DELIMITER + pair.getValue() + FIELD_DELIMIER);
+        }
+
+        return h.toString();
+    }
+
+    @Override
+    public String toString() {
+        return MESSAGE_DELIMIER + getHeaderString() + HEADER_DELIMITER + getBodyString() + MESSAGE_DELIMIER;
+    }
+
+    public Message setHeaderField(MessageHeaderField k, String v){
         header.put(k, v);
+        return this;
     }
 
-    public void setBodyParam(String key, String value) {
+    public Message setBodyParam(String key, String value) {
         body.put(key, value);
+        return this;
     }
 
     public Map<MessageHeaderField, String> getHeader() {return header;}

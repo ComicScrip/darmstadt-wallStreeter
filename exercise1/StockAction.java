@@ -7,10 +7,6 @@ public abstract class StockAction {
     private double price;
     private StockActionStatus status = StockActionStatus.NONE;
 
-    public boolean isComplete() {
-        return (stock.getName() != StockName.NONE && price > 0);
-    }
-
     public Message toMessage()
     {
         Message m = new Message();

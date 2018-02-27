@@ -4,7 +4,7 @@ public class Trader {
     static UserInterface user = new UserInterface();
     final static String QUIT = "quit";
 
-    public static String getRequest() {
+    public static Message getRequest() {
         String line = "";
 
         try {
@@ -19,21 +19,23 @@ public class Trader {
         return null;
     }
 
-    public static String getStockActionRequest(StockAction sa){
-        String toSend = null;
+    public static Message getStockActionRequest(StockAction sa){
+        Message toSend = sa.toMessage();
+
         if(sa instanceof StockAsk){
-            toSend = "method=addSellActionToList\npayloadLength=%s\n\n%s";
+            toSend.setHeaderField(MessageHeaderField.method, "addSellActionToList");
         } else if (sa instanceof StockBid){
-            toSend = "method=addBuyActionToList\npayloadLength=%s\n\n%s";
+            toSend.setHeaderField(MessageHeaderField.method, "addSellActionToList");
         }
 
-        return toSend == null ? null : String.format(toSend, sa.toServerString().length(), sa.toServerString());
+        return toSend;
     }
 
-    public static String getStockActionByUUIDRequest() {
+    public static Message getStockActionByUUIDRequest() {
         String line = "";
         String methodName = "";
         String uuid = "";
+        Message toSend = new Message();
 
         try {
             while(true) {
@@ -50,8 +52,7 @@ public class Trader {
             }
         } catch (IOException e){ }
 
-
-        return String.format("method=%s\npayloadLength=%s\n\n%s", methodName, uuid);
+        return toSend.setHeaderField(MessageHeaderField.method, methodName).setBodyParam("uuid", uuid);
     }
 
     public static StockAction getStockActionFormCLI(){

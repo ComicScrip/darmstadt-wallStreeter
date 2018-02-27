@@ -34,7 +34,7 @@ public class TCPClient {
     fromServer = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 
     while(true) {
-        String toSend = Trader.getRequest();
+        Message toSend = Trader.getRequest();
         if(toSend == null) break;
         sendRequest(toSend);
         receiveResponse();
@@ -45,9 +45,10 @@ public class TCPClient {
     fromServer.close();
   }
 
-  private static void sendRequest(String request) throws IOException {
-    user.output("Sending request : \n--------------\n" + request + "\n --------------\n");
-    toServer.writeBytes(('\t' + request + '\n'));
+  private static void sendRequest(Message request) throws IOException {
+    request.autoSetBodyLengthHeader();
+    user.output("Sending request : \n" + request.toString());
+    toServer.writeBytes(request.toString());
   }
 
   private static void receiveResponse() throws IOException {
