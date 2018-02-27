@@ -6,6 +6,10 @@ public abstract class StockAction {
     private double price;
     private StockActionStatus status = StockActionStatus.PENDING;
 
+    public boolean isComplete() {
+        return (stock.getName() != StockName.NONE && price > 0);
+    }
+
     public String toServerString()
     {
         return "stockName=" + stock.getName().name() +
