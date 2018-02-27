@@ -10,16 +10,29 @@ public abstract class StockAction {
         return (stock.getName() != StockName.NONE && price > 0);
     }
 
-    public String toServerString()
+    public Message toMessage()
     {
+        Message m = new Message();
+        m.setBodyParam("stockName", stock.getName().name());
+        m.setBodyParam("price", String.valueOf(price));
+        m.setBodyParam("status", status.name());
+        m.setBodyParam("uuid", uuid.toString());
+        return m;
+        /*
+
         return "stockName=" + stock.getName().name() +
                 "\nprice=" + price +
                 "\nstatus=" + status +
                 "\nuuid=" + uuid +
                 "\n";
+
+                */
     }
 
     public void hydrateFromServerString(String strRepresentation){
+
+
+        /*
         String fieldAssignements[] = strRepresentation.split("\n");
         String assignementParts[] = null;
         String fieldName = null;
@@ -37,6 +50,9 @@ public abstract class StockAction {
                 case "uuid": setUUID(UUID.fromString(fieldValue));
             }
         }
+        */
+
+
     }
 
     public void setStock(StockName stockName)
