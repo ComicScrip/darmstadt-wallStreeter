@@ -17,7 +17,6 @@ public class MultithreadedTCPServer {
             Socket client = listenSocket.accept();
             System.out.println("Connection with: " +     // Output connection
                     client.getRemoteSocketAddress());   // (Client) address
-            //new EchoService(client).start();
             new StockActionService(client).start();
         }
     }

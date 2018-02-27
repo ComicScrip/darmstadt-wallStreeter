@@ -23,6 +23,7 @@ public class TCPClient {
     String ip = "localhost";
     String port = "9999";
     String lineParts[] = line.split(":");
+
     if(lineParts.length == 2) {
         ip = lineParts[0];
         port =  lineParts[1];
@@ -45,11 +46,11 @@ public class TCPClient {
   }
 
   private static void sendRequest(String request) throws IOException {
-    user.output("Sending request : \n--------------" + request + "\n --------------\n");
-    toServer.writeBytes((request + '\n'));
+    user.output("Sending request : \n--------------\n" + request + "\n --------------\n");
+    toServer.writeBytes(('\t' + request + '\n'));
   }
 
   private static void receiveResponse() throws IOException {
-    user.output("Server answers: \n--------------" + fromServer.readLine() + "\n --------------\n");
+    user.output("Server answers: \n--------------\n" + fromServer.readLine() + "\n --------------\n");
   }
 }

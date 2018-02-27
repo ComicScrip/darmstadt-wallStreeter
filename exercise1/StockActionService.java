@@ -16,7 +16,7 @@ public class StockActionService extends Thread{
     @Override
     public void run (){
         String line;
-        System.out.println("Thread started: "+this); // Display Thread-ID
+        System.out.println("Thread started: " + this); // Display Thread-ID
 
         try{
             fromClient = new BufferedReader              // Datastream FROM Client

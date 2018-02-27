@@ -2,10 +2,21 @@ import java.io.IOException;
 
 public class Trader {
     static UserInterface user = new UserInterface();
+    final static String QUIT = "quit";
 
     public static String getRequest() {
-        // TODO: implement general menu
-        return getStockActionRequest(getStockActionFormCLI());
+        String line = "";
+
+        try {
+            while(true) {
+                user.output("What do you want to do ? (1) Buy/Sell (2) Check the status of one request : ");
+                line = user.input(); if(line.equals(QUIT)) return null;
+                if(line.equals("1")) return getStockActionRequest(getStockActionFormCLI());
+                if(line.equals("2")) return getStockActionByUUIDRequest();
+            }
+        } catch (IOException e){ }
+
+        return null;
     }
 
     public static String getStockActionRequest(StockAction sa){
@@ -19,8 +30,31 @@ public class Trader {
         return toSend == null ? null : String.format(toSend, sa.toServerString().length(), sa.toServerString());
     }
 
+    public static String getStockActionByUUIDRequest() {
+        String line = "";
+        String methodName = "";
+        String uuid = "";
+
+        try {
+            while(true) {
+                user.output("Is it an ask (1) or a bid (2) : ");
+                line = user.input(); if(line.equals(QUIT)) return null;
+                if(line.equals("1")) { methodName="getSellActionByUuid"; break; }
+                if(line.equals("2")) { methodName="getBuyActionByUuid"; break; }
+            }
+
+            while(true) {
+                user.output("Please provide ID : ");
+                line = user.input(); if(line.equals(QUIT)) return null;
+                if(!line.isEmpty()) { uuid = line; break; }
+            }
+        } catch (IOException e){ }
+
+
+        return String.format("method=%s\npayloadLength=%s\n\n%s", methodName, uuid);
+    }
+
     public static StockAction getStockActionFormCLI(){
-        final String QUIT = "quit";
         String line = "";
         StockAction stockAction = null;
 
