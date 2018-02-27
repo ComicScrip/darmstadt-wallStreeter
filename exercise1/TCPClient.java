@@ -8,6 +8,7 @@
 
 import java.io.*;
 import java.net.*;
+import java.util.UUID;
 
 public class TCPClient {
     static String line = "";
@@ -46,19 +47,17 @@ public class TCPClient {
   }
 
   private static void sendRequest(Message request) throws IOException {
-    request.autoSetBodyLengthHeader();
     user.output("Sending request : \n" + request.toString());
-    toServer.writeBytes(request.toString());
+    toServer.writeBytes(request.getEncapsulated());
   }
 
   private static void receiveResponse() throws IOException {
     StringBuilder response = new StringBuilder();
-    String line = fromServer.readLine();
-    do {
-        // ----------\nx=y\n\nneur=ergfiz\nrgfr=ergy\n----------
-        response.append(line);
-        line = fromServer.readLine();
-    }while(!line.equals(Message.MESSAGE_DELIMIER));
+    String firstLine = fromServer.readLine();
+    int contentLength = Integer.parseInt(firstLine);
+    for(int i = 0; i<contentLength; i++){
+        response.append((char)fromServer.read());
+    }
 
     Message received = new Message(response.toString());
     user.output("\nServer answers: \n--------------");

@@ -65,8 +65,9 @@ public class Broker {
     }
 
     public StockBid getHighestBid(){
-        double max = buyActionList.get(0).getPrice();
+        if(buyActionList.size() == 0) return null;
         StockBid maxBid = buyActionList.get(0);
+        double max = maxBid.getPrice();
 
         for(int i = 0; i < buyActionList.size(); i++) {
             StockBid bid = buyActionList.get(i);
@@ -80,8 +81,11 @@ public class Broker {
     }
 
     public StockAsk getLowestAsk(){
-        double min = sellActionList.get(0).getPrice();
+        if(sellActionList.size() == 0) return null;
         StockAsk minAsk = sellActionList.get(0);
+        if(minAsk == null) return null;
+
+        double min = minAsk.getPrice();
 
         for(int i = 0; i < sellActionList.size(); i++) {
             StockAsk ask = sellActionList.get(i);
@@ -99,21 +103,21 @@ public class Broker {
         StockBid highestBid = getHighestBid();
         StockAsk lowestAsk = getLowestAsk();
 
-        if((highestBid.getStatus() == StockActionStatus.OK) || (lowestAsk.getStatus() == StockActionStatus.OK))
-        {
-            return;
-        }
+        if(highestBid != null && lowestAsk != null) {
 
-        if(highestBid.getPrice() >= lowestAsk.getPrice())
-        {
-            highestBid.setStatus(StockActionStatus.OK);
-            lowestAsk.setStatus(StockActionStatus.OK);
+            if((highestBid.getStatus() == StockActionStatus.OK) || (lowestAsk.getStatus() == StockActionStatus.OK))
+            {
+                return;
+            }
 
-            //Adds the transaction details to the logfile.csv
-            fileLogger.writeToFile(lowestAsk.getStock().getName().name(),String.valueOf(highestBid.getPrice()));
+            if(highestBid.getPrice() >= lowestAsk.getPrice())
+            {
+                highestBid.setStatus(StockActionStatus.OK);
+                lowestAsk.setStatus(StockActionStatus.OK);
 
-
+                //Adds the transaction details to the logfile.csv
+                fileLogger.writeToFile(lowestAsk.getStock().getName().name(),String.valueOf(highestBid.getPrice()));
+            }
         }
     }
-
 }
