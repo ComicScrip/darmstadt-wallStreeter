@@ -4,7 +4,7 @@ public abstract class StockAction {
     private Stock stock;
     private UUID uuid = UUID.randomUUID() ; // a unique identifier for the stock
     private double price;
-    private StockActionStatus status = StockActionStatus.PENDING;
+    private StockActionStatus status = StockActionStatus.NONE;
 
     public boolean isComplete() {
         return (stock.getName() != StockName.NONE && price > 0);
