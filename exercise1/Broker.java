@@ -4,10 +4,12 @@ import java.util.UUID;
 public class Broker {
     private ArrayList<StockBid> buyActionList;
     private ArrayList<StockAsk> sellActionList;
+    private FileLogger fileLogger;
 
     public Broker(){
         buyActionList = new ArrayList<StockBid>();
         sellActionList = new ArrayList<StockAsk>();
+        fileLogger = new FileLogger("logFile.csv");
     }
 
     public ArrayList<StockBid> getBuyActionList() {
@@ -106,6 +108,11 @@ public class Broker {
         {
             highestBid.setStatus(StockActionStatus.OK);
             lowestAsk.setStatus(StockActionStatus.OK);
+
+            //Adds the transaction details to the logfile.csv
+            fileLogger.writeToFile(lowestAsk.getStock().getName().name(),String.valueOf(highestBid.getPrice()));
+
+
         }
     }
 
