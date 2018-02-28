@@ -11,9 +11,9 @@ public class StockActionService extends Thread{
     DataOutputStream toClient;
     boolean connected = true;
     
-    StockActionService(Socket client){
+    StockActionService(Socket client, Broker b){
         this.client = client;
-        broker = new Broker();
+        broker = b;
     }
 
     @Override
