@@ -103,7 +103,6 @@ public class Broker {
 
         if(highestBid != null && lowestAsk != null) {
 
-
             if((highestBid.getStatus() == StockActionStatus.OK) || (lowestAsk.getStatus() == StockActionStatus.OK))
             {
                 return;
@@ -120,8 +119,11 @@ public class Broker {
         }
     }
 
-    public String searchAction(String dMin, String dMax, String actionName) {
-        System.out.println("OKEY !");
+    public String searchActionPerDates(String dMin, String dMax, String actionName) {
         return fileLogger.searchLogFile(dMin, dMax, actionName);
+    }
+
+    public String searchActionPerName(String actionName) {
+        return fileLogger.searchLogFile(actionName);
     }
 }
