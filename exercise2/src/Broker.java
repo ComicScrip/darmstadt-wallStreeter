@@ -103,6 +103,7 @@ public class Broker {
 
         if(highestBid != null && lowestAsk != null) {
 
+
             if((highestBid.getStatus() == StockActionStatus.OK) || (lowestAsk.getStatus() == StockActionStatus.OK))
             {
                 return;
