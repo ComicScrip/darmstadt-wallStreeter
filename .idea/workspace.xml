@@ -1,992 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94c1127c-ad38-44a3-b1df-72641565b06d" name="Default" comment="fix multiple clients issue">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/lib1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise1/exercise1.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise1/src/Message.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise1/src/MessageHeaderField.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise1/src/Stock.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise1/src/StockAction.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise1/src/StockActionService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise1/src/StockActionStatus.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise1/src/StockAsk.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise1/src/StockBid.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise1/src/StockName.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise1/src/Trader.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise1/src/UserInterface.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/exercise2.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/LICENSE.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/NOTICE.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/advanced.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/allclasses-frame.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/allclasses-noframe.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/constant-values.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/deprecated-list.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/help-doc.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/index-all.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/options" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/XmlRpcConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/XmlRpcConfigImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/XmlRpcException.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/XmlRpcHandler.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/XmlRpcRequest.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/XmlRpcRequestConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/class-use/XmlRpcConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/class-use/XmlRpcConfigImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/class-use/XmlRpcException.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/class-use/XmlRpcHandler.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/class-use/XmlRpcRequest.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/class-use/XmlRpcRequestConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/AsyncCallback.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/TimingOutCallback.TimeoutException.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/TimingOutCallback.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcClient.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcClientConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcClientConfigImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcClientDefaults.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcClientException.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcClientRequestImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcClientWorker.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcClientWorkerFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcCommonsTransport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcCommonsTransportFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcHttpClientConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcHttpTransport.ByteArrayReqWriter.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcHttpTransport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcHttpTransportException.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcLite14HttpTransport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcLite14HttpTransportFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcLiteHttpTransport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcLiteHttpTransportFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcLocalClientConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcLocalStreamTransport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcLocalStreamTransportFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcLocalTransport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcLocalTransportFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcStreamTransport.GzipReqWriter.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcStreamTransport.ReqWriter.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcStreamTransport.ReqWriterImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcStreamTransport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcStreamTransportFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcSun14HttpTransport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcSun14HttpTransportFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcSun15HttpTransport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcSun15HttpTransportFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcSunHttpTransport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcSunHttpTransportFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcTransport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcTransportFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcTransportFactoryImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcTransportImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/AsyncCallback.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/TimingOutCallback.TimeoutException.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/TimingOutCallback.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcClient.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcClientConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcClientConfigImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcClientDefaults.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcClientException.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcClientRequestImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcClientWorker.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcClientWorkerFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcCommonsTransport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcCommonsTransportFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcHttpClientConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcHttpTransport.ByteArrayReqWriter.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcHttpTransport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcHttpTransportException.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcLite14HttpTransport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcLite14HttpTransportFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcLiteHttpTransport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcLiteHttpTransportFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcLocalClientConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcLocalStreamTransport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcLocalStreamTransportFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcLocalTransport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcLocalTransportFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcStreamTransport.GzipReqWriter.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcStreamTransport.ReqWriter.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcStreamTransport.ReqWriterImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcStreamTransport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcStreamTransportFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcSun14HttpTransport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcSun14HttpTransportFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcSun15HttpTransport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcSun15HttpTransportFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcSunHttpTransport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcSunHttpTransportFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcTransport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcTransportFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcTransportFactoryImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcTransportImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/package-frame.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/package-summary.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/package-tree.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/package-use.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/util/ClientFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/util/class-use/ClientFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/util/package-frame.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/util/package-summary.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/util/package-tree.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/util/package-use.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/LocalStreamConnection.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/ServerStreamConnection.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/TypeConverter.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/TypeConverterFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/TypeConverterFactoryImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/TypeFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/TypeFactoryImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcController.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcExtensionException.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcHttpConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcHttpRequestConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcHttpRequestConfigImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcInvocationException.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcLoadException.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcNotAuthorizedException.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcRequestProcessor.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcRequestProcessorFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcStreamConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcStreamRequestConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcStreamRequestProcessor.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcWorker.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcWorkerFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/LocalStreamConnection.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/ServerStreamConnection.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/TypeConverter.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/TypeConverterFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/TypeConverterFactoryImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/TypeFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/TypeFactoryImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcController.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcExtensionException.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcHttpConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcHttpRequestConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcHttpRequestConfigImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcInvocationException.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcLoadException.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcNotAuthorizedException.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcRequestProcessor.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcRequestProcessorFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcStreamConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcStreamRequestConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcStreamRequestProcessor.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcWorker.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcWorkerFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/package-frame.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/package-summary.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/package-tree.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/package-use.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/jaxb/JaxbParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/jaxb/JaxbSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/jaxb/JaxbTypeFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/jaxb/class-use/JaxbParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/jaxb/class-use/JaxbSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/jaxb/class-use/JaxbTypeFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/jaxb/package-frame.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/jaxb/package-summary.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/jaxb/package-tree.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/jaxb/package-use.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/ReflectiveXmlRpcMetaDataHandler.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/Util.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/XmlRpcListableHandlerMapping.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/XmlRpcMetaDataHandler.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/XmlRpcSystemImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/class-use/ReflectiveXmlRpcMetaDataHandler.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/class-use/Util.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/class-use/XmlRpcListableHandlerMapping.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/class-use/XmlRpcMetaDataHandler.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/class-use/XmlRpcSystemImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/package-frame.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/package-summary.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/package-tree.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/package-use.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/package-frame.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/package-summary.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/package-tree.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/package-use.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/AtomicParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/BigDecimalParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/BigIntegerParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/BooleanParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/ByteArrayParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/CalendarParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/DateParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/DoubleParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/ExtParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/FloatParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/I1Parser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/I2Parser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/I4Parser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/I8Parser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/LongParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/MapParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/NodeParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/NullParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/ObjectArrayParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/RecursiveTypeParserImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/SerializableParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/StringParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/TypeParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/TypeParserImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/XmlRpcRequestParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/XmlRpcResponseParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/AtomicParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/BigDecimalParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/BigIntegerParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/BooleanParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/ByteArrayParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/CalendarParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/DateParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/DoubleParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/ExtParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/FloatParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/I1Parser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/I2Parser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/I4Parser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/I8Parser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/LongParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/MapParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/NodeParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/NullParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/ObjectArrayParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/RecursiveTypeParserImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/SerializableParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/StringParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/TypeParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/TypeParserImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/XmlRpcRequestParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/XmlRpcResponseParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/package-frame.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/package-summary.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/package-tree.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/package-use.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/BaseXmlWriterFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/BigDecimalSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/BigIntegerSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/BooleanSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/ByteArraySerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/CalendarSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/CharSetXmlWriterFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/DateSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/DefaultXMLWriterFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/DoubleSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/ExtSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/FloatSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/I1Serializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/I2Serializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/I4Serializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/I8Serializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/ListSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/MapSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/NodeSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/NullSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/ObjectArraySerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/SerializableSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/StringSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/TypeSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/TypeSerializerImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/XmlRpcWriter.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/XmlWriterFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/BaseXmlWriterFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/BigDecimalSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/BigIntegerSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/BooleanSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/ByteArraySerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/CalendarSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/CharSetXmlWriterFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/DateSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/DefaultXMLWriterFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/DoubleSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/ExtSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/FloatSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/I1Serializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/I2Serializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/I4Serializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/I8Serializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/ListSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/MapSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/NodeSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/NullSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/ObjectArraySerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/SerializableSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/StringSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/TypeSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/TypeSerializerImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/XmlRpcWriter.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/XmlWriterFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/package-frame.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/package-summary.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/package-tree.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/package-use.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/AbstractReflectiveHandlerMapping.AuthenticationHandler.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/AbstractReflectiveHandlerMapping.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/PropertyHandlerMapping.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/ReflectiveXmlRpcHandler.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/RequestProcessorFactoryFactory.RequestProcessorFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/RequestProcessorFactoryFactory.RequestSpecificProcessorFactoryFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/RequestProcessorFactoryFactory.StatelessProcessorFactoryFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/RequestProcessorFactoryFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/ServerHttpConnection.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcErrorLogger.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcHandlerMapping.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcHttpServer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcHttpServerConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcLocalStreamServer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcNoSuchHandlerException.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcServer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcServerConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcServerConfigImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcServerWorker.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcServerWorkerFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcStreamServer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/AbstractReflectiveHandlerMapping.AuthenticationHandler.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/AbstractReflectiveHandlerMapping.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/PropertyHandlerMapping.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/ReflectiveXmlRpcHandler.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/RequestProcessorFactoryFactory.RequestProcessorFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/RequestProcessorFactoryFactory.RequestSpecificProcessorFactoryFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/RequestProcessorFactoryFactory.StatelessProcessorFactoryFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/RequestProcessorFactoryFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/ServerHttpConnection.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcErrorLogger.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcHandlerMapping.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcHttpServer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcHttpServerConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcLocalStreamServer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcNoSuchHandlerException.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcServer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcServerConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcServerConfigImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcServerWorker.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcServerWorkerFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcStreamServer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/package-frame.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/package-summary.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/package-tree.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/package-use.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/HttpUtil.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/LimitedInputStream.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/ReflectionUtil.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/SAXParsers.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/ThreadPool.InterruptableTask.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/ThreadPool.Task.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/ThreadPool.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/XmlRpcDateTimeDateFormat.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/XmlRpcDateTimeFormat.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/XmlRpcIOException.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/class-use/HttpUtil.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/class-use/LimitedInputStream.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/class-use/ReflectionUtil.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/class-use/SAXParsers.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/class-use/ThreadPool.InterruptableTask.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/class-use/ThreadPool.Task.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/class-use/ThreadPool.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/class-use/XmlRpcDateTimeDateFormat.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/class-use/XmlRpcDateTimeFormat.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/class-use/XmlRpcIOException.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/package-frame.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/package-summary.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/package-tree.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/package-use.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/Connection.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/HttpServletRequestImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/HttpServletResponseImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/RequestData.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/ServletConnection.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/ServletWebServer.Exception.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/ServletWebServer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/WebServer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/XmlRpcServlet.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/XmlRpcServletServer.ServletStreamConnection.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/XmlRpcServletServer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/class-use/Connection.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/class-use/HttpServletRequestImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/class-use/HttpServletResponseImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/class-use/RequestData.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/class-use/ServletConnection.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/class-use/ServletWebServer.Exception.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/class-use/ServletWebServer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/class-use/WebServer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/class-use/XmlRpcServlet.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/class-use/XmlRpcServletServer.ServletStreamConnection.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/class-use/XmlRpcServletServer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/package-frame.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/package-summary.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/package-tree.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/package-use.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/overview-frame.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/overview-summary.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/overview-tree.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/package-list" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/packages" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/resources/inherit.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/serialized-form.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/stylesheet.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/changes-report.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/client.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/contributing.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/css/maven-base.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/css/maven-theme.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/css/print.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/css/site.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/dependencies.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/dependency-convergence.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/dependency-management.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/download.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/extensions.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/faq.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/images/add.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/images/close.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/images/collapsed.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/images/expanded.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/images/external.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/images/fix.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/images/icon_error_sml.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/images/icon_help_sml.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/images/icon_info_sml.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/images/icon_success_sml.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/images/icon_warning_sml.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/images/logos/build-by-maven-black.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/images/logos/build-by-maven-white.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/images/logos/maven-feather.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/images/newwindow.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/images/remove.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/images/rss.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/images/update.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/integration.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/introspection.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/issue-tracking.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/license.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/links.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/mail-lists.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/plugin-management.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/plugins.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/project-info.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/project-reports.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/project-summary.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/rat-report.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/server.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/source-repository.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/ssl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/team-list.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/types.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/lib/commons-logging-1.1.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/lib/ws-commons-util-1.0.2.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/lib/xmlrpc-client-3.1.3.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/lib/xmlrpc-common-3.1.3.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/lib/xmlrpc-server-3.1.3.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/src/Broker.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/src/FileLogger.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/src/MainServer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/src/PriceService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/src/SocketServer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/src/TCPClient.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/src/XMLRPCServer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/LICENSE.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/NOTICE.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/advanced.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/allclasses-frame.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/allclasses-noframe.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/constant-values.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/deprecated-list.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/help-doc.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/index-all.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/options" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/XmlRpcConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/XmlRpcConfigImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/XmlRpcException.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/XmlRpcHandler.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/XmlRpcRequest.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/XmlRpcRequestConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/class-use/XmlRpcConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/class-use/XmlRpcConfigImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/class-use/XmlRpcException.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/class-use/XmlRpcHandler.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/class-use/XmlRpcRequest.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/class-use/XmlRpcRequestConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/AsyncCallback.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/TimingOutCallback.TimeoutException.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/TimingOutCallback.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcClient.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcClientConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcClientConfigImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcClientDefaults.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcClientException.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcClientRequestImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcClientWorker.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcClientWorkerFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcCommonsTransport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcCommonsTransportFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcHttpClientConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcHttpTransport.ByteArrayReqWriter.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcHttpTransport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcHttpTransportException.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcLite14HttpTransport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcLite14HttpTransportFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcLiteHttpTransport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcLiteHttpTransportFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcLocalClientConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcLocalStreamTransport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcLocalStreamTransportFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcLocalTransport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcLocalTransportFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcStreamTransport.GzipReqWriter.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcStreamTransport.ReqWriter.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcStreamTransport.ReqWriterImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcStreamTransport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcStreamTransportFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcSun14HttpTransport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcSun14HttpTransportFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcSun15HttpTransport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcSun15HttpTransportFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcSunHttpTransport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcSunHttpTransportFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcTransport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcTransportFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcTransportFactoryImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcTransportImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/AsyncCallback.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/TimingOutCallback.TimeoutException.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/TimingOutCallback.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcClient.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcClientConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcClientConfigImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcClientDefaults.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcClientException.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcClientRequestImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcClientWorker.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcClientWorkerFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcCommonsTransport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcCommonsTransportFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcHttpClientConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcHttpTransport.ByteArrayReqWriter.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcHttpTransport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcHttpTransportException.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcLite14HttpTransport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcLite14HttpTransportFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcLiteHttpTransport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcLiteHttpTransportFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcLocalClientConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcLocalStreamTransport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcLocalStreamTransportFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcLocalTransport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcLocalTransportFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcStreamTransport.GzipReqWriter.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcStreamTransport.ReqWriter.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcStreamTransport.ReqWriterImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcStreamTransport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcStreamTransportFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcSun14HttpTransport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcSun14HttpTransportFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcSun15HttpTransport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcSun15HttpTransportFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcSunHttpTransport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcSunHttpTransportFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcTransport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcTransportFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcTransportFactoryImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcTransportImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/package-frame.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/package-summary.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/package-tree.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/package-use.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/util/ClientFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/util/class-use/ClientFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/util/package-frame.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/util/package-summary.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/util/package-tree.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/util/package-use.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/LocalStreamConnection.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/ServerStreamConnection.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/TypeConverter.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/TypeConverterFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/TypeConverterFactoryImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/TypeFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/TypeFactoryImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcController.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcExtensionException.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcHttpConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcHttpRequestConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcHttpRequestConfigImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcInvocationException.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcLoadException.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcNotAuthorizedException.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcRequestProcessor.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcRequestProcessorFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcStreamConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcStreamRequestConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcStreamRequestProcessor.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcWorker.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcWorkerFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/LocalStreamConnection.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/ServerStreamConnection.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/TypeConverter.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/TypeConverterFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/TypeConverterFactoryImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/TypeFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/TypeFactoryImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcController.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcExtensionException.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcHttpConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcHttpRequestConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcHttpRequestConfigImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcInvocationException.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcLoadException.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcNotAuthorizedException.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcRequestProcessor.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcRequestProcessorFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcStreamConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcStreamRequestConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcStreamRequestProcessor.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcWorker.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcWorkerFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/package-frame.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/package-summary.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/package-tree.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/package-use.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/jaxb/JaxbParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/jaxb/JaxbSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/jaxb/JaxbTypeFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/jaxb/class-use/JaxbParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/jaxb/class-use/JaxbSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/jaxb/class-use/JaxbTypeFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/jaxb/package-frame.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/jaxb/package-summary.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/jaxb/package-tree.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/jaxb/package-use.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/ReflectiveXmlRpcMetaDataHandler.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/Util.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/XmlRpcListableHandlerMapping.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/XmlRpcMetaDataHandler.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/XmlRpcSystemImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/class-use/ReflectiveXmlRpcMetaDataHandler.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/class-use/Util.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/class-use/XmlRpcListableHandlerMapping.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/class-use/XmlRpcMetaDataHandler.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/class-use/XmlRpcSystemImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/package-frame.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/package-summary.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/package-tree.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/package-use.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/package-frame.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/package-summary.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/package-tree.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/package-use.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/AtomicParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/BigDecimalParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/BigIntegerParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/BooleanParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/ByteArrayParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/CalendarParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/DateParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/DoubleParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/ExtParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/FloatParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/I1Parser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/I2Parser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/I4Parser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/I8Parser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/LongParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/MapParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/NodeParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/NullParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/ObjectArrayParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/RecursiveTypeParserImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/SerializableParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/StringParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/TypeParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/TypeParserImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/XmlRpcRequestParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/XmlRpcResponseParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/AtomicParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/BigDecimalParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/BigIntegerParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/BooleanParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/ByteArrayParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/CalendarParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/DateParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/DoubleParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/ExtParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/FloatParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/I1Parser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/I2Parser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/I4Parser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/I8Parser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/LongParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/MapParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/NodeParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/NullParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/ObjectArrayParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/RecursiveTypeParserImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/SerializableParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/StringParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/TypeParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/TypeParserImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/XmlRpcRequestParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/XmlRpcResponseParser.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/package-frame.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/package-summary.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/package-tree.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/package-use.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/BaseXmlWriterFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/BigDecimalSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/BigIntegerSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/BooleanSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/ByteArraySerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/CalendarSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/CharSetXmlWriterFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/DateSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/DefaultXMLWriterFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/DoubleSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/ExtSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/FloatSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/I1Serializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/I2Serializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/I4Serializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/I8Serializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/ListSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/MapSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/NodeSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/NullSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/ObjectArraySerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/SerializableSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/StringSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/TypeSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/TypeSerializerImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/XmlRpcWriter.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/XmlWriterFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/BaseXmlWriterFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/BigDecimalSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/BigIntegerSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/BooleanSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/ByteArraySerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/CalendarSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/CharSetXmlWriterFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/DateSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/DefaultXMLWriterFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/DoubleSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/ExtSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/FloatSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/I1Serializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/I2Serializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/I4Serializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/I8Serializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/ListSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/MapSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/NodeSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/NullSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/ObjectArraySerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/SerializableSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/StringSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/TypeSerializer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/TypeSerializerImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/XmlRpcWriter.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/XmlWriterFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/package-frame.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/package-summary.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/package-tree.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/package-use.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/AbstractReflectiveHandlerMapping.AuthenticationHandler.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/AbstractReflectiveHandlerMapping.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/PropertyHandlerMapping.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/ReflectiveXmlRpcHandler.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/RequestProcessorFactoryFactory.RequestProcessorFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/RequestProcessorFactoryFactory.RequestSpecificProcessorFactoryFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/RequestProcessorFactoryFactory.StatelessProcessorFactoryFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/RequestProcessorFactoryFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/ServerHttpConnection.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcErrorLogger.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcHandlerMapping.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcHttpServer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcHttpServerConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcLocalStreamServer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcNoSuchHandlerException.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcServer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcServerConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcServerConfigImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcServerWorker.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcServerWorkerFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcStreamServer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/AbstractReflectiveHandlerMapping.AuthenticationHandler.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/AbstractReflectiveHandlerMapping.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/PropertyHandlerMapping.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/ReflectiveXmlRpcHandler.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/RequestProcessorFactoryFactory.RequestProcessorFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/RequestProcessorFactoryFactory.RequestSpecificProcessorFactoryFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/RequestProcessorFactoryFactory.StatelessProcessorFactoryFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/RequestProcessorFactoryFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/ServerHttpConnection.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcErrorLogger.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcHandlerMapping.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcHttpServer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcHttpServerConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcLocalStreamServer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcNoSuchHandlerException.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcServer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcServerConfig.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcServerConfigImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcServerWorker.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcServerWorkerFactory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcStreamServer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/package-frame.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/package-summary.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/package-tree.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/package-use.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/HttpUtil.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/LimitedInputStream.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/ReflectionUtil.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/SAXParsers.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/ThreadPool.InterruptableTask.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/ThreadPool.Task.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/ThreadPool.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/XmlRpcDateTimeDateFormat.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/XmlRpcDateTimeFormat.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/XmlRpcIOException.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/class-use/HttpUtil.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/class-use/LimitedInputStream.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/class-use/ReflectionUtil.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/class-use/SAXParsers.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/class-use/ThreadPool.InterruptableTask.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/class-use/ThreadPool.Task.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/class-use/ThreadPool.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/class-use/XmlRpcDateTimeDateFormat.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/class-use/XmlRpcDateTimeFormat.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/class-use/XmlRpcIOException.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/package-frame.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/package-summary.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/package-tree.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/package-use.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/Connection.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/HttpServletRequestImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/HttpServletResponseImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/RequestData.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/ServletConnection.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/ServletWebServer.Exception.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/ServletWebServer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/WebServer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/XmlRpcServlet.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/XmlRpcServletServer.ServletStreamConnection.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/XmlRpcServletServer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/class-use/Connection.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/class-use/HttpServletRequestImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/class-use/HttpServletResponseImpl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/class-use/RequestData.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/class-use/ServletConnection.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/class-use/ServletWebServer.Exception.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/class-use/ServletWebServer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/class-use/WebServer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/class-use/XmlRpcServlet.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/class-use/XmlRpcServletServer.ServletStreamConnection.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/class-use/XmlRpcServletServer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/package-frame.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/package-summary.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/package-tree.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/package-use.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/overview-frame.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/overview-summary.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/overview-tree.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/package-list" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/packages" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/resources/inherit.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/serialized-form.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/stylesheet.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/changes-report.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/client.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/contributing.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/css/maven-base.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/css/maven-theme.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/css/print.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/css/site.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/dependencies.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/dependency-convergence.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/dependency-management.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/download.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/extensions.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/faq.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/images/add.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/images/close.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/images/collapsed.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/images/expanded.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/images/external.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/images/fix.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/images/icon_error_sml.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/images/icon_help_sml.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/images/icon_info_sml.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/images/icon_success_sml.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/images/icon_warning_sml.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/images/logos/build-by-maven-black.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/images/logos/build-by-maven-white.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/images/logos/maven-feather.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/images/newwindow.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/images/remove.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/images/rss.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/images/update.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/integration.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/introspection.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/issue-tracking.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/license.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/links.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/mail-lists.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/plugin-management.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/plugins.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/project-info.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/project-reports.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/project-summary.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/rat-report.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/server.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/source-repository.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/ssl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/team-list.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/types.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/lib/commons-logging-1.1.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/lib/ws-commons-util-1.0.2.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/lib/xmlrpc-client-3.1.3.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/lib/xmlrpc-common-3.1.3.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/lib/xmlrpc-server-3.1.3.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/exercise3.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/src/Broker.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/src/FileLogger.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/src/MainServer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/src/Message.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/src/MessageHeaderField.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/src/PriceService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/src/SocketServer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/src/Stock.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/src/StockAction.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/src/StockActionService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/src/StockActionStatus.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/src/StockAsk.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/src/StockBid.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/src/StockName.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/src/TCPClient.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/src/Trader.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/src/UserInterface.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/src/XMLRPCServer.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/darmstadt-wallStreeter.iml" afterPath="$PROJECT_DIR$/darmstadt-wallStreeter.iml" />
-      <change beforePath="$PROJECT_DIR$/exercise1/Broker.java" afterPath="$PROJECT_DIR$/exercise1/src/Broker.java" />
-      <change beforePath="$PROJECT_DIR$/exercise1/FileLogger.java" afterPath="$PROJECT_DIR$/exercise1/src/FileLogger.java" />
-      <change beforePath="$PROJECT_DIR$/exercise1/Message.java" afterPath="$PROJECT_DIR$/exercise2/src/Message.java" />
-      <change beforePath="$PROJECT_DIR$/exercise1/MessageHeaderField.java" afterPath="$PROJECT_DIR$/exercise2/src/MessageHeaderField.java" />
-      <change beforePath="$PROJECT_DIR$/exercise1/MultithreadedTCPServer.java" afterPath="$PROJECT_DIR$/exercise1/src/MultithreadedTCPServer.java" />
-      <change beforePath="$PROJECT_DIR$/exercise1/Stock.java" afterPath="$PROJECT_DIR$/exercise2/src/Stock.java" />
-      <change beforePath="$PROJECT_DIR$/exercise1/StockAction.java" afterPath="$PROJECT_DIR$/exercise2/src/StockAction.java" />
-      <change beforePath="$PROJECT_DIR$/exercise1/StockActionService.java" afterPath="$PROJECT_DIR$/exercise2/src/StockActionService.java" />
-      <change beforePath="$PROJECT_DIR$/exercise1/StockActionStatus.java" afterPath="$PROJECT_DIR$/exercise2/src/StockActionStatus.java" />
-      <change beforePath="$PROJECT_DIR$/exercise1/StockAsk.java" afterPath="$PROJECT_DIR$/exercise2/src/StockAsk.java" />
-      <change beforePath="$PROJECT_DIR$/exercise1/StockBid.java" afterPath="$PROJECT_DIR$/exercise2/src/StockBid.java" />
-      <change beforePath="$PROJECT_DIR$/exercise1/StockName.java" afterPath="$PROJECT_DIR$/exercise2/src/StockName.java" />
-      <change beforePath="$PROJECT_DIR$/exercise1/TCPClient.java" afterPath="$PROJECT_DIR$/exercise1/src/TCPClient.java" />
-      <change beforePath="$PROJECT_DIR$/exercise1/Trader.java" afterPath="$PROJECT_DIR$/exercise2/src/Trader.java" />
-      <change beforePath="$PROJECT_DIR$/exercise1/UserInterface.java" afterPath="$PROJECT_DIR$/exercise2/src/UserInterface.java" />
+    <list default="true" id="94c1127c-ad38-44a3-b1df-72641565b06d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/exercise2/src/FileLogger.java" afterPath="$PROJECT_DIR$/exercise2/src/FileLogger.java" />
+      <change beforePath="$PROJECT_DIR$/exercise2/src/MainServer.java" afterPath="$PROJECT_DIR$/exercise2/src/MainServer.java" />
+      <change beforePath="$PROJECT_DIR$/exercise2/src/PriceService.java" afterPath="$PROJECT_DIR$/exercise2/src/PriceService.java" />
+      <change beforePath="$PROJECT_DIR$/logFile.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise2/Broker.class" afterPath="$PROJECT_DIR$/out/production/exercise2/Broker.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise2/FileLogger.class" afterPath="$PROJECT_DIR$/out/production/exercise2/FileLogger.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise2/MainServer.class" afterPath="$PROJECT_DIR$/out/production/exercise2/MainServer.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise2/PriceService.class" afterPath="$PROJECT_DIR$/out/production/exercise2/PriceService.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -998,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PriceService.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PriceService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exercise2/src/PriceService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="455">
+              <caret line="68" column="48" lean-forward="true" selection-start-line="68" selection-start-column="48" selection-end-line="68" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -1011,9 +35,11 @@
       <file leaf-file-name="MainServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercise2/src/MainServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="170">
+              <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1021,7 +47,7 @@
       <file leaf-file-name="SocketServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercise2/src/SocketServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
+            <state relative-caret-position="306">
               <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
               <folding />
             </state>
@@ -1031,18 +57,39 @@
       <file leaf-file-name="StockActionService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercise2/src/StockActionService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1026">
-              <caret line="61" column="39" lean-forward="false" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
+            <state relative-caret-position="465">
+              <caret line="61" column="37" lean-forward="true" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Broker.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Broker.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercise2/src/Broker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="113" column="58" lean-forward="false" selection-start-line="113" selection-start-column="58" selection-end-line="113" selection-end-column="58" />
+            <state relative-caret-position="431">
+              <caret line="125" column="37" lean-forward="false" selection-start-line="125" selection-start-column="18" selection-end-line="125" selection-end-column="37" />
+              <folding>
+                <element signature="e#393#394#0" expanded="true" />
+                <element signature="e#429#430#0" expanded="true" />
+                <element signature="e#483#484#0" expanded="true" />
+                <element signature="e#520#521#0" expanded="true" />
+                <element signature="e#591#592#0" expanded="true" />
+                <element signature="e#641#642#0" expanded="true" />
+                <element signature="e#714#715#0" expanded="true" />
+                <element signature="e#766#767#0" expanded="true" />
+                <element signature="e#3564#3565#0" expanded="true" />
+                <element signature="e#3623#3624#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Message.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercise2/src/Message.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -1051,9 +98,24 @@
       <file leaf-file-name="XMLRPCServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercise2/src/XMLRPCServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
+            <state relative-caret-position="272">
               <caret line="21" column="52" lean-forward="false" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileLogger.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercise2/src/FileLogger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+              <folding>
+                <element signature="e#825#826#0" expanded="true" />
+                <element signature="e#861#862#0" expanded="true" />
+                <element signature="e#919#920#0" expanded="true" />
+                <element signature="e#969#970#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1117,9 +179,11 @@
         <option value="$PROJECT_DIR$/exercise1/exercise1/StockAsk.java" />
         <option value="$PROJECT_DIR$/exercise1/exercise2/StockActionService.java" />
         <option value="$PROJECT_DIR$/exercise2/src/StockActionService.java" />
-        <option value="$PROJECT_DIR$/exercise2/src/PriceService.java" />
         <option value="$PROJECT_DIR$/exercise2/src/XMLRPCServer.java" />
+        <option value="$PROJECT_DIR$/exercise2/src/MainServer.java" />
+        <option value="$PROJECT_DIR$/exercise2/src/FileLogger.java" />
         <option value="$PROJECT_DIR$/exercise2/src/Broker.java" />
+        <option value="$PROJECT_DIR$/exercise2/src/PriceService.java" />
       </list>
     </option>
   </component>
@@ -1130,10 +194,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="14" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="width" value="960" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager">
     <OptionsSetting value="false" id="Update" />
@@ -1153,8 +215,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1162,11 +224,40 @@
               <item name="darmstadt-wallStreeter" type="b2602c69:ProjectViewProjectNode" />
               <item name="darmstadt-wallStreeter" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="darmstadt-wallStreeter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="darmstadt-wallStreeter" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="darmstadt-wallStreeter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="darmstadt-wallStreeter" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="darmstadt-wallStreeter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="darmstadt-wallStreeter" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="darmstadt-wallStreeter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="darmstadt-wallStreeter" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="darmstadt-wallStreeter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="darmstadt-wallStreeter" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise2" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -1207,7 +298,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TCPClient">
+  <component name="RunManager" selected="Application.PriceService (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -1285,20 +376,6 @@
       <module name="exercise1" />
       <envs />
     </configuration>
-    <configuration name="TCPClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="exercise1.TCPClient" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="darmstadt-wallStreeter" />
-      <envs />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -1374,18 +451,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.TCPClient" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TCPClient (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TCPClient (2)" />
-      <item index="3" class="java.lang.String" itemvalue="Application.PriceService" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MainServer" />
+      <item index="0" class="java.lang.String" itemvalue="Application.TCPClient (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TCPClient (2)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.PriceService" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MainServer" />
+      <item index="4" class="java.lang.String" itemvalue="Application.PriceService (1)" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.TCPClient (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MainServer" />
-        <item index="2" class="java.lang.String" itemvalue="Application.PriceService" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TCPClient (2)" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.PriceService (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TCPClient (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MainServer" />
+        <item index="3" class="java.lang.String" itemvalue="Application.PriceService" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TCPClient (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -1535,7 +613,14 @@
       <option name="project" value="LOCAL" />
       <updated>1519808969694</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Merge with components of exercise2">
+      <created>1519836168593</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1519836168593</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1556,18 +641,18 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29585153" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29533115" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19083156" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19296375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1578,10 +663,39 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3941048" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29533115" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19296375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1637,25 +751,12 @@
     <MESSAGE value="fix price parsing" />
     <MESSAGE value="exo 1 ok" />
     <MESSAGE value="fix multiple clients issue" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix multiple clients issue" />
+    <MESSAGE value="Merge with components of exercise2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge with components of exercise2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/exercise2/src/Broker.java</url>
-          <line>122</line>
-          <properties />
-          <option name="timeStamp" value="91" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/exercise2/src/Broker.java</url>
-          <line>31</line>
-          <properties />
-          <option name="timeStamp" value="92" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="93" />
+      <option name="time" value="94" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -1755,16 +856,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="24" lean-forward="true" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/exercise1/src/UserInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -1801,18 +893,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logFile.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exercise1/src/Broker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1880,21 +964,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercise2/src/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exercise2/src/UserInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise2/src/FileLogger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1947,7 +1017,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2035,50 +1104,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercise2/src/PriceService.java">
+    <entry file="file://$PROJECT_DIR$/exercise2/src/XMLRPCServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="272">
+          <caret line="21" column="52" lean-forward="false" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exercise2/src/SocketServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
+        <state relative-caret-position="306">
           <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logFile.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise2/src/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exercise2/src/StockActionService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="61" column="39" lean-forward="false" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
+        <state relative-caret-position="465">
+          <caret line="61" column="37" lean-forward="true" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise2/src/FileLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding>
+            <element signature="e#825#826#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#969#970#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exercise2/src/MainServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise2/src/XMLRPCServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="21" column="52" lean-forward="false" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
-          <folding />
+        <state relative-caret-position="170">
+          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exercise2/src/Broker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="113" column="58" lean-forward="false" selection-start-line="113" selection-start-column="58" selection-end-line="113" selection-end-column="58" />
+        <state relative-caret-position="431">
+          <caret line="125" column="37" lean-forward="false" selection-start-line="125" selection-start-column="18" selection-end-line="125" selection-end-column="37" />
+          <folding>
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#3564#3565#0" expanded="true" />
+            <element signature="e#3623#3624#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise2/src/PriceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="68" column="48" lean-forward="true" selection-start-line="68" selection-start-column="48" selection-end-line="68" selection-end-column="48" />
           <folding />
         </state>
       </provider>

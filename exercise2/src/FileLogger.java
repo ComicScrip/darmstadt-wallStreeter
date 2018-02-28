@@ -15,8 +15,16 @@ public class FileLogger {
     private File textFile;
     private FileWriter fileWriter;
 
-    public FileLogger(String pathToLogFile) {
+    public FileLogger(String pathToLogFile){
         this.pathToLogFile = pathToLogFile;
+        textFile = new File(pathToLogFile);
+        try {
+            textFile.createNewFile();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        /*textFile.getParentFile().mkdirs();
+        textFile.createNewFile();*/
     }
 
     public String getPathToLogFile() {
@@ -30,7 +38,6 @@ public class FileLogger {
     //Writes the stockname and the stockprice to the logFile
     public void writeToFile(String stockName, String stockPrice){
         try{
-            textFile = new File(pathToLogFile);
             fileWriter = new FileWriter(textFile, true);
             DateFormat df = new SimpleDateFormat("dd/MM/yy HH:mm:ss");
             Date dateobj = new Date();

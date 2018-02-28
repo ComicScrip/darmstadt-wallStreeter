@@ -1,5 +1,10 @@
+import java.io.File;
+import java.io.IOException;
+
 public class MainServer {
-    public static void main(String[] args){
+    public static void main(String[] args) throws IOException {
+        //(new File("test")).createNewFile();
+        //FileLogger f = new FileLogger("test.csv");
         Broker b = new Broker();
         Thread ss = new SocketServer(b);
         ss.start();
