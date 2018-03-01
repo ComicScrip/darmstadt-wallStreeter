@@ -1,16 +1,18 @@
+
+
 import java.util.HashMap;
 import java.util.Map;
 
-public class Message {
+public class SocketMessage {
     final static String KV_DELIMITER = "=";
     final static String FIELD_DELIMITER = "\n";
     final static String HEADER_DELIMITER = "---------------\n";
     private Map<MessageHeaderField, String> header = new HashMap<MessageHeaderField, String>();
     private Map<String, String> body = new HashMap<String, String>();
 
-    public Message(){ }
+    public SocketMessage(){ }
 
-    public Message(String strRepresentation) {
+    public SocketMessage(String strRepresentation) {
         String messageParts[] = strRepresentation.split(HEADER_DELIMITER);
         if (messageParts.length >= 2) parseFields(messageParts[1], true);
         if(messageParts.length >= 3) parseFields(messageParts[2], false);
@@ -71,12 +73,12 @@ public class Message {
         return getContentLength() + "\n" + this.toString();
     }
 
-    public Message setHeaderField(MessageHeaderField k, String v){
+    public SocketMessage setHeaderField(MessageHeaderField k, String v){
         header.put(k, v);
         return this;
     }
 
-    public Message setBodyParam(String key, String value) {
+    public SocketMessage setBodyParam(String key, String value) {
         body.put(key, value);
         return this;
     }

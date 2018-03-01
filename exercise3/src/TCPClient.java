@@ -13,47 +13,39 @@ import java.io.InputStreamReader;
 import java.net.Socket;
 
 public class TCPClient {
-    static String line = "";
+    boolean started = false;
+    String line = "";
     static UserInterface user = new UserInterface();
-    static Socket socket;
-    static BufferedReader fromServer;
-    static DataOutputStream toServer;
-    static Trader trader;
+    Socket socket;
+    BufferedReader fromServer;
+    DataOutputStream toServer;
 
-    public static void main(String[] args) throws Exception {
-        user.output("Please provide IP:PORT of the server, or hit enter to leave the defaults : ");
-        line = user.input();
-        String ip = "localhost";
-        String port = "9999";
-        String lineParts[] = line.split(":");
-
-        if(lineParts.length == 2) {
-            ip = lineParts[0];
-            port =  lineParts[1];
-        }
-
-        socket = new Socket(ip, Integer.parseInt(port));
-        toServer = new DataOutputStream(socket.getOutputStream());
-        fromServer = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-
-        while(true) {
-            Message toSend = Trader.getRequest();
-            if(toSend == null) break;
-            sendRequest(toSend);
-            receiveResponse();
-        }
-
-        socket.close();
-        toServer.close();
-        fromServer.close();
+    public TCPClient(String serverIP, String serverPort) throws Exception{
+        initConnection(serverIP, serverPort);
     }
 
-    private static void sendRequest(Message request) throws IOException {
+    private void initConnection(String serverIP, String serverPort) throws Exception{
+        socket = new Socket(serverIP, Integer.parseInt(serverPort));
+        toServer = new DataOutputStream(socket.getOutputStream());
+        fromServer = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+        started = true;
+    }
+
+    public void stop() throws Exception{
+        if (started) {
+            socket.close();
+            toServer.close();
+            fromServer.close();
+            started = false;
+        }
+    }
+
+    public void sendRequest(SocketMessage request) throws IOException {
         user.output("Sending request : \n" + request.toString());
         toServer.writeBytes(request.getEncapsulated());
     }
 
-    private static void receiveResponse() throws IOException {
+    public void receiveResponse() throws IOException {
         StringBuilder response = new StringBuilder();
         String firstLine = fromServer.readLine();
         int contentLength = Integer.parseInt(firstLine);
@@ -61,7 +53,7 @@ public class TCPClient {
             response.append((char)fromServer.read());
         }
 
-        Message received = new Message(response.toString());
+        SocketMessage received = new SocketMessage(response.toString());
         user.output("\nServer answers: \n--------------");
         user.output(received.toString() + "\n --------------\n");
     }

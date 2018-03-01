@@ -1,10 +1,14 @@
 import java.io.IOException;
+import java.util.Random;
+import java.util.concurrent.ThreadLocalRandom;
 
 public class Trader {
     static UserInterface user = new UserInterface();
     final static String QUIT = "quit";
 
-    public static Message getRequest() {
+    public Trader() {}
+
+    public static SocketMessage getRequest() {
         String line = "";
 
         try {
@@ -19,8 +23,8 @@ public class Trader {
         return null;
     }
 
-    public static Message getStockActionRequest(StockAction sa){
-        Message toSend = sa.toMessage();
+    public static SocketMessage getStockActionRequest(StockAction sa){
+        SocketMessage toSend = sa.toMessage();
 
         if(sa instanceof StockAsk){
             toSend.setHeaderField(MessageHeaderField.requestMethod, "addSellActionToList");
@@ -31,11 +35,11 @@ public class Trader {
         return toSend;
     }
 
-    public static Message getStockActionByUUIDRequest() {
+    public static SocketMessage getStockActionByUUIDRequest() {
         String line = "";
         String methodName = "";
         String uuid = "";
-        Message toSend = new Message();
+        SocketMessage toSend = new SocketMessage();
 
         try {
             while(true) {
