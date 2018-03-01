@@ -21,7 +21,13 @@ HOW TO RUN :
 		- Include following libraries in your project and change the CLASSPATH consequently :
 			--> apache-xmlrpc-3.1.3 or higher (https://ws.apache.org/xmlrpc/xmlrpc2/download.html)
 	
-	1°) Run 
+	1°) Run MainServer.java
+
+	2°) This is possible to run TCPClient.java (in order to add some entry into the logfile.csv)
+
+	3°) Adapt the IP address in PriceService.java if necessary (l.42) and run it
+
+	4°) Provide informations asked in the TCPClient console
 
 === EXERCISE 3 ===
 
