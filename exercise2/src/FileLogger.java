@@ -100,7 +100,7 @@ public class FileLogger {
 
 
     //Search the specified stock's data between dateMin and dateMax
-    public String searchLogFile( String dMin, String dMax, String actionName){
+    public String searchLogFile( String dMin, String dMax, String actionName, boolean minimize){
         //Input file which needs to be parsed
         String fileToParse = pathToLogFile;
         BufferedReader fileReader = null;
@@ -112,6 +112,8 @@ public class FileLogger {
         {
             String linesMatched = "";
             String line = "";
+            int minCounter = 0;  // Counter which will be incremented for each conforms lines
+
             //Create the file reader
             fileReader = new BufferedReader(new FileReader(fileToParse));
 
@@ -128,19 +130,16 @@ public class FileLogger {
                 Date dateMin = df.parse(dMin);
                 Date dateMax = df.parse(dMax);
 
-                //print the token if the transaction date is between the min and max date
-
+                //Affect the token if the transaction date is between the min and max date
                 if((transactionDate.after(dateMin))&&(transactionDate.before(dateMax)) && (actionName.equals(tokens[1]))){
-                    //for(String token : tokens)
-                    //{
-                    //Print all tokens
-                    //  System.out.println("Date : " + tokens[0] + " Nom de l'action : " + tokens[1] + " Prix : " + tokens[2]);
                     linesMatched += ("Date : " + tokens[0] + " Nom de l'action : " + tokens[1] + " Prix : " + tokens[2] + "\n");
-                    //}
+                    //If the boolean minimize is set to true, the client only wants to read 10 entry
+                    if(minimize) {
+                        minCounter++;
+                        if (minCounter == 10) break;
+                    }
                 }
             }
-            System.out.println("Fonction");
-            System.out.println(linesMatched);
             return linesMatched;
         }
         catch (Exception e) {
@@ -156,17 +155,4 @@ public class FileLogger {
         }
         return "";
     }
-    /*
-   // Usage exemple of fileLogger
-   public static void main(String[] args) {
-        FileLogger fileLogger = new FileLogger("text.csv");
-        fileLogger.writeToFile("apple","100");
-        fileLogger.writeToFile("apple","200");
-        fileLogger.writeToFile("apple","300");
-        fileLogger.writeToFile("apple","400");
-        fileLogger.writeToFile("apple","500");
-       // fileLogger.searchLogFile("24/02/18","25/03/18","apple");
-       fileLogger.searchLogFile("apple");
-    }
-    */
 }
