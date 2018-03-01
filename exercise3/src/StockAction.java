@@ -6,9 +6,9 @@ public abstract class StockAction {
     private double price;
     private StockActionStatus status = StockActionStatus.PENDING;
 
-    public Message toMessage()
+    public SocketMessage toMessage()
     {
-        Message m = new Message();
+        SocketMessage m = new SocketMessage();
         m.setBodyParam("stockName", stock.getName().name());
         m.setBodyParam("price", String.valueOf(price));
         m.setBodyParam("status", status.name());
@@ -17,7 +17,7 @@ public abstract class StockAction {
     }
 
     public void hydrateFromServerString(String strRepresentation){
-        Message m = new Message(strRepresentation);
+        SocketMessage m = new SocketMessage(strRepresentation);
         setStock(StockName.valueOf(m.getBody().get("stockName")));
         setUUID(UUID.fromString(m.getBody().get("uuid")));
         setPrice(Double.parseDouble(m.getBody().get("price")));

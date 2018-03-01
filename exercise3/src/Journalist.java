@@ -21,7 +21,7 @@ import org.apache.activemq.command.ActiveMQTopic;
 import javax.jms.*;
 import java.util.concurrent.ThreadLocalRandom;
 
-class Publisher {
+class Journalist {
 
     public static void main(String []args) throws JMSException {
 
@@ -31,7 +31,6 @@ class Publisher {
         int port = Integer.parseInt(env("ACTIVEMQ_PORT", "61616"));
         String destination = arg(args, 0, "event");
 
-        int messages = 20;
         //int size = 256;
 
         //String DATA = "abcdefghijklmnopqrstuvwxyz";
@@ -49,16 +48,17 @@ class Publisher {
         MessageProducer producer = session.createProducer(dest);
         producer.setDeliveryMode(DeliveryMode.NON_PERSISTENT);
 
-        for( int i=1; i <= messages; i ++) {
+        for( int i=1; true; i ++) {
             News news = randomNews();
             TextMessage msg = session.createTextMessage(news.getMessage());
             msg.setIntProperty("id", i);
             producer.send(msg);
             System.out.println(String.format("Message with id %d sent : " + msg.getText(),i));
             try {
-                Thread.sleep(1000);
+                Thread.sleep(ThreadLocalRandom.current().nextInt(1000, 10000));
             } catch (InterruptedException e) {
                 e.printStackTrace();
+                break;
             }
             /*if( (i % 1000) == 0) {
                 System.out.println(String.format("Sent %d messages", i));
@@ -67,7 +67,6 @@ class Publisher {
 
         producer.send(session.createTextMessage("SHUTDOWN"));
         connection.close();
-
     }
 
     private static String env(String key, String defaultValue) {

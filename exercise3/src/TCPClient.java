@@ -18,9 +18,8 @@ public class TCPClient {
     static Socket socket;
     static BufferedReader fromServer;
     static DataOutputStream toServer;
-    static Trader trader;
 
-    public static void main(String[] args) throws Exception {
+    static void start() throws Exception{
         user.output("Please provide IP:PORT of the server, or hit enter to leave the defaults : ");
         line = user.input();
         String ip = "localhost";
@@ -35,25 +34,31 @@ public class TCPClient {
         socket = new Socket(ip, Integer.parseInt(port));
         toServer = new DataOutputStream(socket.getOutputStream());
         fromServer = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+    }
 
-        while(true) {
-            Message toSend = Trader.getRequest();
-            if(toSend == null) break;
-            sendRequest(toSend);
-            receiveResponse();
-        }
-
+    static void stop() throws Exception{
         socket.close();
         toServer.close();
         fromServer.close();
     }
 
-    private static void sendRequest(Message request) throws IOException {
+    public static void main(String[] args) throws Exception {
+        start();
+        while(true) {
+            SocketMessage toSend = Trader.getRequest();
+            if(toSend == null) break;
+            sendRequest(toSend);
+            receiveResponse();
+        }
+        stop();
+    }
+
+    public static void sendRequest(SocketMessage request) throws IOException {
         user.output("Sending request : \n" + request.toString());
         toServer.writeBytes(request.getEncapsulated());
     }
 
-    private static void receiveResponse() throws IOException {
+    public static void receiveResponse() throws IOException {
         StringBuilder response = new StringBuilder();
         String firstLine = fromServer.readLine();
         int contentLength = Integer.parseInt(firstLine);
@@ -61,7 +66,7 @@ public class TCPClient {
             response.append((char)fromServer.read());
         }
 
-        Message received = new Message(response.toString());
+        SocketMessage received = new SocketMessage(response.toString());
         user.output("\nServer answers: \n--------------");
         user.output(received.toString() + "\n --------------\n");
     }

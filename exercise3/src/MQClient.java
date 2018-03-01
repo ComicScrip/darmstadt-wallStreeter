@@ -20,10 +20,23 @@ import org.apache.activemq.command.ActiveMQTopic;
 
 import javax.jms.*;
 import javax.jms.Message;
+import java.io.BufferedReader;
+import java.io.DataOutputStream;
+import java.io.InputStreamReader;
+import java.net.Socket;
 
-class Listener {
 
-    public static void main(String []args) throws JMSException {
+class MQClient {
+    public static void main(String []args) throws JMSException, Exception {
+        TCPClient.start();
+
+        final int NB_ACYCLIC_TRADERS = 1;
+        final int NB_CYCLIC_TRADERS = 1;
+
+        Trader acyclicTraders[] = new Trader[NB_ACYCLIC_TRADERS];
+        Trader cyclicTraders[] = new Trader[NB_CYCLIC_TRADERS];
+        for(int i = 0; i < NB_ACYCLIC_TRADERS; i++) acyclicTraders[i] = new Trader(TraderType.ACYCLIC);
+        for(int i = 0; i < NB_CYCLIC_TRADERS; i++) cyclicTraders[i] = new Trader(TraderType.CYCLIC);
 
         String user = env("ACTIVEMQ_USER", "admin");
         String password = env("ACTIVEMQ_PASSWORD", "password");
@@ -59,10 +72,14 @@ class Listener {
                     if( count == 0 ) {
                         start = System.currentTimeMillis();
                     }
-                    /*if( count % 1000 == 0 ) {
-                        System.out.println(String.format("Received %d messages.", count));
-                    }*/
-                    System.out.println(String.format("Received message with id %d : " + body,msg.getIntProperty("id")));
+                    System.out.println(String.format("Received from journalist : " + body));
+
+                    News n = News.parseFromPublisherMessage(body);
+                    SocketMessage toSend = acyclicTraders[0].getRequest(n.getType(), n.getAbout());
+                    if(toSend == null) break;
+                    TCPClient.sendRequest(toSend);
+                    TCPClient.receiveResponse();
+
                     count ++;
                 }
 
@@ -71,6 +88,7 @@ class Listener {
             }
         }
         connection.close();
+        TCPClient.stop();
     }
 
     private static String env(String key, String defaultValue) {

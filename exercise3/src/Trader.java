@@ -1,10 +1,43 @@
 import java.io.IOException;
+import java.util.Random;
+import java.util.concurrent.ThreadLocalRandom;
 
 public class Trader {
     static UserInterface user = new UserInterface();
     final static String QUIT = "quit";
+    TraderType type;
 
-    public static Message getRequest() {
+    public Trader() {}
+
+    public Trader(TraderType tt) {
+        type = tt;
+    }
+
+    public SocketMessage getRequest(NewsType nt, StockName sn) {
+        StockAction sa = null;
+        if(nt.equals(NewsType.GOOD)){
+            if(type == TraderType.CYCLIC) {
+                sa = new StockBid();
+            } else if (type == TraderType.ACYCLIC) {
+                sa = new StockAsk();
+            }
+        } else if (nt.equals(NewsType.BAD)) {
+            if(type == TraderType.CYCLIC) {
+                sa = new StockAsk();
+            } else if (type == TraderType.ACYCLIC) {
+                sa = new StockBid();
+            }
+        }
+
+        if(sa != null) {
+            sa.setPrice(ThreadLocalRandom.current().nextInt(1, 101));
+            sa.setStock(sn);
+        }
+
+        return getStockActionRequest(sa);
+    }
+
+    public static SocketMessage getRequest() {
         String line = "";
 
         try {
@@ -19,8 +52,8 @@ public class Trader {
         return null;
     }
 
-    public static Message getStockActionRequest(StockAction sa){
-        Message toSend = sa.toMessage();
+    public static SocketMessage getStockActionRequest(StockAction sa){
+        SocketMessage toSend = sa.toMessage();
 
         if(sa instanceof StockAsk){
             toSend.setHeaderField(MessageHeaderField.requestMethod, "addSellActionToList");
@@ -31,11 +64,11 @@ public class Trader {
         return toSend;
     }
 
-    public static Message getStockActionByUUIDRequest() {
+    public static SocketMessage getStockActionByUUIDRequest() {
         String line = "";
         String methodName = "";
         String uuid = "";
-        Message toSend = new Message();
+        SocketMessage toSend = new SocketMessage();
 
         try {
             while(true) {

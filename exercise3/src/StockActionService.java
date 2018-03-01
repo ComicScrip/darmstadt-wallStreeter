@@ -33,10 +33,10 @@ public class StockActionService extends Thread{
                     requestString.append((char)fromClient.read());
                 }
 
-                Message received = new Message(requestString.toString());
+                SocketMessage received = new SocketMessage(requestString.toString());
                 System.out.println("Received: \n" + received.toString());
 
-                Message response = executeMethod(received);
+                SocketMessage response = executeMethod(received);
                 toClient.writeBytes(response.getEncapsulated());
             }
 
@@ -49,7 +49,7 @@ public class StockActionService extends Thread{
         }
     }
 
-    private Message executeMethod(Message msg)
+    private SocketMessage executeMethod(SocketMessage msg)
     {
         String method = msg.getHeader().get(MessageHeaderField.requestMethod);
         try
@@ -60,12 +60,12 @@ public class StockActionService extends Thread{
                     StockAsk stockAsk = new StockAsk();
                     stockAsk.hydrateFromServerString(msg.toString());
                     broker.addSellActionToList(stockAsk);
-                    return (new Message()).setHeaderField(MessageHeaderField.responseStatus, "Your ask has been taken into account");
+                    return (new SocketMessage()).setHeaderField(MessageHeaderField.responseStatus, "Your ask has been taken into account");
                 case "addBuyActionToList":
                     StockBid stockBid = new StockBid();
                     stockBid.hydrateFromServerString(msg.toString());
                     broker.addBuyActionToList(stockBid);
-                    return (new Message()).setHeaderField(MessageHeaderField.responseStatus, "Your bid has been taken into account");
+                    return (new SocketMessage()).setHeaderField(MessageHeaderField.responseStatus, "Your bid has been taken into account");
                 case "getSellActionByUuid":
                     StockAsk sa;
 
@@ -76,7 +76,7 @@ public class StockActionService extends Thread{
                     }
 
                     if(sa == null){
-                        return (new Message()).setHeaderField(MessageHeaderField.responseStatus, "NOT FOUND");
+                        return (new SocketMessage()).setHeaderField(MessageHeaderField.responseStatus, "NOT FOUND");
                     } else {
                         return sa.toMessage().setHeaderField(MessageHeaderField.responseStatus, "OK");
                     }
@@ -90,7 +90,7 @@ public class StockActionService extends Thread{
                     }
 
                     if(sb == null){
-                        return (new Message()).setHeaderField(MessageHeaderField.responseStatus, "NOT FOUND");
+                        return (new SocketMessage()).setHeaderField(MessageHeaderField.responseStatus, "NOT FOUND");
                     } else {
                         return sb.toMessage().setHeaderField(MessageHeaderField.responseStatus, "OK");
                     }
