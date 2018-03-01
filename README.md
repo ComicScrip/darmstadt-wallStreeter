@@ -51,10 +51,13 @@ HOW TO RUN :
 	
 	2°) Once ActiveMq is running, run MainServer.java
 	
-	3°) Run NewsTraderPlatform.java
-		- this will initiate multiple TCP clients. Some being "zero intelligence" traders (as in exercise 1), and other being Cyclic/Acyclic traders waiting for news.
+	3°) You can run the following clients at the same time :
+	    - TCPClientProgram (that's the one in exercise 1)
+        - The MQClient that will lauch a single client with a cyclic Trader listening to news and pushing buying/selling requests to Broker 
+	    - NewsTraderPlatform <NUMBER OF CYCLIC TRADERS> <NUMBER OF CYCLIC TRADERS>
+		--> This will spawn multiple MQClients with the different types of traders (Cyclic/Acyclic). Each Client has a dedicated socket connection to the main server.
 	
-	4°) Run Journalist.java
-		- this will start publishig news to the message queue the Cyclic/acyclic traders are subscribed to.
+	4°) Run Journalist
+		- this will start publishig news to the message queue the Cyclic/acyclic traders are subscribed to. News are published every *between 1 and 5* seconds.
 		
-	5°) Now you should see asks and bids being sent as good/bad news arrives. In the meantime, you can use the user interface of a "zero intelligence" trader to build your ask/bids as you wish.
+	5°) Now you should see asks and bids being sent as good/bad news arrives. 
