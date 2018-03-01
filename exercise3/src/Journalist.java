@@ -30,15 +30,6 @@ class Journalist {
         String host = env("ACTIVEMQ_HOST", "localhost");
         int port = Integer.parseInt(env("ACTIVEMQ_PORT", "61616"));
         String destination = arg(args, 0, "event");
-
-        //int size = 256;
-
-        //String DATA = "abcdefghijklmnopqrstuvwxyz";
-        /*String body = "";
-        for( int i=0; i < size; i ++) {
-            body += DATA.charAt(i%DATA.length());
-        }*/
-
         ActiveMQConnectionFactory factory = new ActiveMQConnectionFactory("tcp://" + host + ":" + port);
 
         Connection connection = factory.createConnection(user, password);
@@ -55,7 +46,7 @@ class Journalist {
             producer.send(msg);
             System.out.println(String.format("Message with id %d sent : " + msg.getText(),i));
             try {
-                Thread.sleep(ThreadLocalRandom.current().nextInt(1000, 10000));
+                Thread.sleep(ThreadLocalRandom.current().nextInt(1000, 5000));
             } catch (InterruptedException e) {
                 e.printStackTrace();
                 break;

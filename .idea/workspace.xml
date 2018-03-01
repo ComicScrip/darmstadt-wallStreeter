@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94c1127c-ad38-44a3-b1df-72641565b06d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/src/TraderType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/src/MQTrader.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/src/NewsTraderPlatform.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/src/TCPClientProgram.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/exercise3/exercise3.iml" afterPath="$PROJECT_DIR$/exercise3/exercise3.iml" />
-      <change beforePath="$PROJECT_DIR$/exercise3/src/Listener.java" afterPath="$PROJECT_DIR$/exercise3/src/MQClient.java" />
-      <change beforePath="$PROJECT_DIR$/exercise3/src/Message.java" afterPath="$PROJECT_DIR$/exercise3/src/SocketMessage.java" />
-      <change beforePath="$PROJECT_DIR$/exercise3/src/News.java" afterPath="$PROJECT_DIR$/exercise3/src/News.java" />
-      <change beforePath="$PROJECT_DIR$/exercise3/src/Publisher.java" afterPath="$PROJECT_DIR$/exercise3/src/Journalist.java" />
-      <change beforePath="$PROJECT_DIR$/exercise3/src/StockAction.java" afterPath="$PROJECT_DIR$/exercise3/src/StockAction.java" />
-      <change beforePath="$PROJECT_DIR$/exercise3/src/StockActionService.java" afterPath="$PROJECT_DIR$/exercise3/src/StockActionService.java" />
+      <change beforePath="$PROJECT_DIR$/exercise3/src/Journalist.java" afterPath="$PROJECT_DIR$/exercise3/src/Journalist.java" />
+      <change beforePath="$PROJECT_DIR$/exercise3/src/MQClient.java" afterPath="$PROJECT_DIR$/exercise3/src/MQClient.java" />
       <change beforePath="$PROJECT_DIR$/exercise3/src/TCPClient.java" afterPath="$PROJECT_DIR$/exercise3/src/TCPClient.java" />
       <change beforePath="$PROJECT_DIR$/exercise3/src/Trader.java" afterPath="$PROJECT_DIR$/exercise3/src/Trader.java" />
       <change beforePath="$PROJECT_DIR$/logFile.csv" afterPath="$PROJECT_DIR$/logFile.csv" />
@@ -26,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MQClient.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MQClient.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exercise3/src/MQClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="90" column="25" lean-forward="false" selection-start-line="90" selection-start-column="25" selection-end-line="90" selection-end-column="25" />
+            <state relative-caret-position="166">
+              <caret line="82" column="0" lean-forward="true" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -39,56 +35,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="News.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise3/src/News.java">
+      <file leaf-file-name="TCPClientProgram.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercise3/src/TCPClientProgram.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="41" column="31" lean-forward="false" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+            <state relative-caret-position="324">
+              <caret line="51" column="61" lean-forward="true" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="61" />
               <folding>
-                <element signature="e#1103#1104#0" expanded="true" />
-                <element signature="e#1145#1146#0" expanded="true" />
-                <element signature="e#1177#1178#0" expanded="true" />
-                <element signature="e#1212#1213#0" expanded="true" />
-                <element signature="e#1240#1241#0" expanded="true" />
-                <element signature="e#1285#1286#0" expanded="true" />
-                <element signature="e#1319#1320#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Trader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise3/src/Trader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-              <folding>
+                <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="e#294#295#0" expanded="true" />
-                <element signature="e#319#320#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TraderType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise3/src/TraderType.java">
+      <file leaf-file-name="MQTrader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercise3/src/MQTrader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="558">
+              <caret line="31" column="40" lean-forward="true" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="40" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SocketMessage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise3/src/SocketMessage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-72">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -96,18 +61,21 @@
       <file leaf-file-name="TCPClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercise3/src/TCPClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="21" column="41" lean-forward="false" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
-              <folding />
+            <state relative-caret-position="162">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Journalist.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/exercise3/src/Journalist.java">
+      <file leaf-file-name="StockActionService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercise3/src/StockActionService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="60" column="22" lean-forward="true" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+            <state relative-caret-position="288">
+              <caret line="59" column="55" lean-forward="true" selection-start-line="59" selection-start-column="55" selection-end-line="59" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -136,6 +104,8 @@
       <find>MessageHeaderField.method</find>
       <find>establish</find>
       <find>search</find>
+      <find>requestMetho1d</find>
+      <find>port</find>
       <find>count</find>
     </findStrings>
     <replaceStrings>
@@ -143,6 +113,7 @@
       <replace>requestString</replace>
       <replace>MessageHeaderField.requestMethod</replace>
       <replace>FIELD_DELIMITER</replace>
+      <replace>serverPort</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -188,11 +159,15 @@
         <option value="$PROJECT_DIR$/exercise3/src/Publisher.java" />
         <option value="$PROJECT_DIR$/exercise3/src/Message.java" />
         <option value="$PROJECT_DIR$/exercise3/src/TraderType.java" />
-        <option value="$PROJECT_DIR$/exercise3/src/Trader.java" />
         <option value="$PROJECT_DIR$/exercise3/src/News.java" />
+        <option value="$PROJECT_DIR$/exercise3/src/Trader.java" />
+        <option value="$PROJECT_DIR$/exercise3/src/MQTrader.java" />
+        <option value="$PROJECT_DIR$/exercise3/src/NewsTraderPlatform.java" />
+        <option value="$PROJECT_DIR$/exercise3/src/StockAction.java" />
+        <option value="$PROJECT_DIR$/exercise3/src/Journalist.java" />
+        <option value="$PROJECT_DIR$/exercise3/src/TCPClientProgram.java" />
         <option value="$PROJECT_DIR$/exercise3/src/TCPClient.java" />
         <option value="$PROJECT_DIR$/exercise3/src/MQClient.java" />
-        <option value="$PROJECT_DIR$/exercise3/src/Journalist.java" />
       </list>
     </option>
   </component>
@@ -403,6 +378,9 @@
       <recent name="C:\Users\Pedro\IdeaProjects\darmstadt-wallStreeter\exercise2\src" />
       <recent name="C:\Users\Pedro\IdeaProjects\darmstadt-wallStreeter\exercise1\exercise2" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Pedro\IdeaProjects\darmstadt-wallStreeter\exercise3\lib\apachemq" />
       <recent name="D:\Users\DMarck\Documents\PERSO\CNAM\Darmstadt\2A\Distributed Systems\LAB\darmstadt-wallStreeter\lib" />
@@ -534,7 +512,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainServer (1)">
+  <component name="RunManager" selected="Application.TCPClientProgram">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -584,9 +562,9 @@
       <module name="exercise3" />
       <envs />
     </configuration>
-    <configuration name="PriceService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="NewsTraderPlatform" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="PriceService" />
+      <option name="MAIN_CLASS_NAME" value="NewsTraderPlatform" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -598,9 +576,9 @@
       <module name="exercise3" />
       <envs />
     </configuration>
-    <configuration name="TCPClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TCPClientProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="TCPClient" />
+      <option name="MAIN_CLASS_NAME" value="TCPClientProgram" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -687,19 +665,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.PriceService" />
-      <item index="1" class="java.lang.String" itemvalue="Application.MainServer (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TCPClient" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MQClient" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Journalist" />
+      <item index="0" class="java.lang.String" itemvalue="Application.MainServer (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MQClient" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Journalist" />
+      <item index="3" class="java.lang.String" itemvalue="Application.NewsTraderPlatform" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TCPClientProgram" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Journalist" />
+        <item index="0" class="java.lang.String" itemvalue="Application.TCPClientProgram" />
         <item index="1" class="java.lang.String" itemvalue="Application.MQClient" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MainServer (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Application.PriceService" />
-        <item index="4" class="java.lang.String" itemvalue="Application.TCPClient" />
+        <item index="2" class="java.lang.String" itemvalue="Application.NewsTraderPlatform" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MainServer (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Journalist" />
       </list>
     </recent_temporary>
   </component>
@@ -858,11 +836,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519836168593</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="MOM - one MQ trader">
+      <created>1519906495359</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1519906495359</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80416000" />
+    <option name="totallyTimeSpent" value="87304000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -886,7 +871,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29585153" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29366812" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -899,7 +884,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3941048" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3941048" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1011,11 +996,12 @@
     <MESSAGE value="exo 1 ok" />
     <MESSAGE value="fix multiple clients issue" />
     <MESSAGE value="Merge with components of exercise2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge with components of exercise2" />
+    <MESSAGE value="MOM - one MQ trader" />
+    <option name="LAST_COMMIT_MESSAGE" value="MOM - one MQ trader" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="94" />
+      <option name="time" value="97" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -1033,6 +1019,39 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>((NullPointerException) e).stackTrace</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>java.lang.NullPointerException</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((NullPointerException) e).backtrace</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>java.lang.NullPointerException</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>e.printStackTrace();</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>java.lang.NullPointerException</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>e.printStackTrace()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>e.printStackTrace();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getStockActionRequest(sa)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>sellActionList</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -1047,67 +1066,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>this.sellActionList</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>lowestAsk.getPrice()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>highestBid.getPrice()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>StockActionStatus.valueOf(m.getBody().get(&quot;status&quot;))</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>setStatus(StockActionStatus.valueOf(m.getBody().get(&quot;status&quot;))</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>setStatus(StockActionStatus.valueOf(m.getBody().get(&quot;status&quot;)))</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/exercise1/src/MessageHeaderField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise1/src/StockAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise1/src/StockActionStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise1/src/StockAsk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exercise1/src/StockActionService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-774">
@@ -1144,13 +1105,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercise3/src/MessageHeaderField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exercise3/src/Broker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1159,13 +1113,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exercise3/src/UserInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise3/src/StockAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1213,13 +1160,6 @@
         <state relative-caret-position="324">
           <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1380,25 +1320,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercise3/src/SocketMessage.java">
+    <entry file="file://$PROJECT_DIR$/exercise3/src/TraderType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-72">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise3/src/Trader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="72">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1418,26 +1344,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercise3/src/TraderType.java">
+    <entry file="file://$PROJECT_DIR$/exercise3/src/Trader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="612">
+          <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise3/src/SocketMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="57" lean-forward="true" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise3/src/StockAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise3/src/MessageHeaderField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise3/src/Journalist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise3/src/NewsTraderPlatform.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logFile.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise3/src/StockActionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="59" column="55" lean-forward="true" selection-start-line="59" selection-start-column="55" selection-end-line="59" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exercise3/src/TCPClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="21" column="41" lean-forward="false" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise3/src/MQClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="90" column="25" lean-forward="false" selection-start-line="90" selection-start-column="25" selection-end-line="90" selection-end-column="25" />
+        <state relative-caret-position="162">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
@@ -1445,11 +1423,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercise3/src/Journalist.java">
+    <entry file="file://$PROJECT_DIR$/exercise3/src/TCPClientProgram.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="60" column="22" lean-forward="true" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+        <state relative-caret-position="324">
+          <caret line="51" column="61" lean-forward="true" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="61" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise3/src/MQTrader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="40" lean-forward="true" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="40" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise3/src/MQClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="82" column="0" lean-forward="true" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

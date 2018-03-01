@@ -13,52 +13,39 @@ import java.io.InputStreamReader;
 import java.net.Socket;
 
 public class TCPClient {
-    static String line = "";
+    boolean started = false;
+    String line = "";
     static UserInterface user = new UserInterface();
-    static Socket socket;
-    static BufferedReader fromServer;
-    static DataOutputStream toServer;
+    Socket socket;
+    BufferedReader fromServer;
+    DataOutputStream toServer;
 
-    static void start() throws Exception{
-        user.output("Please provide IP:PORT of the server, or hit enter to leave the defaults : ");
-        line = user.input();
-        String ip = "localhost";
-        String port = "9999";
-        String lineParts[] = line.split(":");
+    public TCPClient(String serverIP, String serverPort) throws Exception{
+        initConnection(serverIP, serverPort);
+    }
 
-        if(lineParts.length == 2) {
-            ip = lineParts[0];
-            port =  lineParts[1];
-        }
-
-        socket = new Socket(ip, Integer.parseInt(port));
+    private void initConnection(String serverIP, String serverPort) throws Exception{
+        socket = new Socket(serverIP, Integer.parseInt(serverPort));
         toServer = new DataOutputStream(socket.getOutputStream());
         fromServer = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+        started = true;
     }
 
-    static void stop() throws Exception{
-        socket.close();
-        toServer.close();
-        fromServer.close();
-    }
-
-    public static void main(String[] args) throws Exception {
-        start();
-        while(true) {
-            SocketMessage toSend = Trader.getRequest();
-            if(toSend == null) break;
-            sendRequest(toSend);
-            receiveResponse();
+    public void stop() throws Exception{
+        if (started) {
+            socket.close();
+            toServer.close();
+            fromServer.close();
+            started = false;
         }
-        stop();
     }
 
-    public static void sendRequest(SocketMessage request) throws IOException {
+    public void sendRequest(SocketMessage request) throws IOException {
         user.output("Sending request : \n" + request.toString());
         toServer.writeBytes(request.getEncapsulated());
     }
 
-    public static void receiveResponse() throws IOException {
+    public void receiveResponse() throws IOException {
         StringBuilder response = new StringBuilder();
         String firstLine = fromServer.readLine();
         int contentLength = Integer.parseInt(firstLine);

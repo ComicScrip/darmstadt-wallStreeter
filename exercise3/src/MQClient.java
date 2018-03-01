@@ -20,24 +20,21 @@ import org.apache.activemq.command.ActiveMQTopic;
 
 import javax.jms.*;
 import javax.jms.Message;
-import java.io.BufferedReader;
-import java.io.DataOutputStream;
-import java.io.InputStreamReader;
-import java.net.Socket;
 
 
-class MQClient {
-    public static void main(String []args) throws JMSException, Exception {
-        TCPClient.start();
+class MQClient extends Thread {
+    MQTrader trader;
+    String [] args;
+    TCPClient sockClient;
 
-        final int NB_ACYCLIC_TRADERS = 1;
-        final int NB_CYCLIC_TRADERS = 1;
+    public MQClient(MQTrader t, String [] options) throws Exception{
+        trader = t;
+        args = options;
+        sockClient = new TCPClient("localhost", "9999");
+    }
 
-        Trader acyclicTraders[] = new Trader[NB_ACYCLIC_TRADERS];
-        Trader cyclicTraders[] = new Trader[NB_CYCLIC_TRADERS];
-        for(int i = 0; i < NB_ACYCLIC_TRADERS; i++) acyclicTraders[i] = new Trader(TraderType.ACYCLIC);
-        for(int i = 0; i < NB_CYCLIC_TRADERS; i++) cyclicTraders[i] = new Trader(TraderType.CYCLIC);
-
+    @Override
+    public void run () {
         String user = env("ACTIVEMQ_USER", "admin");
         String password = env("ACTIVEMQ_PASSWORD", "password");
         String host = env("ACTIVEMQ_HOST", "localhost");
@@ -46,52 +43,62 @@ class MQClient {
 
         ActiveMQConnectionFactory factory = new ActiveMQConnectionFactory("tcp://" + host + ":" + port);
 
-        Connection connection = factory.createConnection(user, password);
-        connection.start();
-        Session session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
-        Destination dest = new ActiveMQTopic(destination);
+        try {
+            Connection connection = factory.createConnection(user, password);
+            connection.start();
+            Session session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
+            Destination dest = new ActiveMQTopic(destination);
 
-        MessageConsumer consumer = session.createConsumer(dest);
-        long start = System.currentTimeMillis();
-        long count = 1;
-        System.out.println("Waiting for messages...");
-        while(true) {
-            Message msg = consumer.receive();
-            if( msg instanceof  TextMessage ) {
-                String body = ((TextMessage) msg).getText();
-                if( "SHUTDOWN".equals(body)) {
-                    long diff = System.currentTimeMillis() - start;
-                    System.out.println(String.format("Received %d in %.2f seconds", count, (1.0*diff/1000.0)));
-                    break;
+            MessageConsumer consumer = session.createConsumer(dest);
+            long start = System.currentTimeMillis();
+            long count = 1;
+            System.out.println("Waiting for messages...");
+            while(true) {
+                Message msg = consumer.receive();
+                if( msg instanceof  TextMessage ) {
+                    String body = ((TextMessage) msg).getText();
+                    if( "SHUTDOWN".equals(body)) {
+                        long diff = System.currentTimeMillis() - start;
+                        System.out.println(String.format("Received %d in %.2f seconds", count, (1.0*diff/1000.0)));
+                        break;
+                    } else {
+                        if( count != msg.getIntProperty("id") ) {
+                            System.out.println("mismatch: "+count+"!="+msg.getIntProperty("id"));
+                        }
+                        count = msg.getIntProperty("id");
+
+                        if( count == 0 ) {
+                            start = System.currentTimeMillis();
+                        }
+                        System.out.println(String.format("Received from journalist : " + body));
+
+                        News n = News.parseFromPublisherMessage(body);
+                        SocketMessage toSend = trader.getRequest(n.getType(), n.getAbout());
+                        if(toSend == null) break;
+                        sockClient.sendRequest(toSend);
+                        sockClient.receiveResponse();
+
+                        count ++;
+                    }
+
                 } else {
-                    if( count != msg.getIntProperty("id") ) {
-                        System.out.println("mismatch: "+count+"!="+msg.getIntProperty("id"));
-                    }
-                    count = msg.getIntProperty("id");
-
-                    if( count == 0 ) {
-                        start = System.currentTimeMillis();
-                    }
-                    System.out.println(String.format("Received from journalist : " + body));
-
-                    News n = News.parseFromPublisherMessage(body);
-                    SocketMessage toSend = acyclicTraders[0].getRequest(n.getType(), n.getAbout());
-                    if(toSend == null) break;
-                    TCPClient.sendRequest(toSend);
-                    TCPClient.receiveResponse();
-
-                    count ++;
+                    System.out.println("Unexpected message type: "+msg.getClass());
                 }
-
-            } else {
-                System.out.println("Unexpected message type: "+msg.getClass());
             }
+            connection.close();
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
         }
-        connection.close();
-        TCPClient.stop();
     }
 
-    private static String env(String key, String defaultValue) {
+    public static void main(String[] args) throws Exception {
+        String traderType = arg(args, 0, "cyclic");
+        MQTrader t = new MQTrader(traderType.equals("acyclic") ? TraderType.ACYCLIC : TraderType.CYCLIC);
+        MQClient c = new MQClient(t, args);
+        c.run();
+    }
+
+    private String env(String key, String defaultValue) {
         String rc = System.getenv(key);
         if( rc== null )
             return defaultValue;
