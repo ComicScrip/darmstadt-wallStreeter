@@ -84,7 +84,7 @@ public class Broker {
 
     public StockBid getHighestBid(StockName stockName){
         //if(buyActionList.size() == 0) return null;
-        ArrayList<StockBid> bids = getAllBidsOfStock(stockName);
+        ArrayList<StockBid> bids = getAllPendingBidsOfStock(stockName);
         if(bids.size() == 0) return null;
         StockBid maxBid = bids.get(0);
         double max = maxBid.getPrice();
@@ -119,7 +119,7 @@ public class Broker {
 
     public StockAsk getLowestAsk(StockName stockName){
         //if(buyActionList.size() == 0) return null;
-        ArrayList<StockAsk> asks = getAllAsksOfStock(stockName);
+        ArrayList<StockAsk> asks = getAllPendingAsksOfStock(stockName);
         if(asks.size() == 0) return null;
         StockAsk minAsk = asks.get(0);
         double min = minAsk.getPrice();
@@ -134,7 +134,7 @@ public class Broker {
         return minAsk;
     }
 
-    public ArrayList<StockBid> getAllBidsOfStock(StockName stockName)
+    public ArrayList<StockBid> getAllPendingBidsOfStock(StockName stockName)
     {
         ArrayList<StockBid> stockBids = new ArrayList<StockBid>();
 
@@ -142,7 +142,7 @@ public class Broker {
         {
             for(StockBid bid : buyActionList)
             {
-                if(bid.getStock().getName().equals(stockName))
+                if((bid.getStock().getName().equals(stockName)) && (bid.getStatus() != StockActionStatus.OK))
                 {
                     stockBids.add(bid);
                 }
@@ -152,7 +152,8 @@ public class Broker {
         return stockBids;
     }
 
-    public ArrayList<StockAsk> getAllAsksOfStock(StockName stockName)
+
+    public ArrayList<StockAsk> getAllPendingAsksOfStock(StockName stockName)
     {
         ArrayList<StockAsk> stockAsks = new ArrayList<StockAsk>();
 
@@ -160,7 +161,7 @@ public class Broker {
         {
             for(StockAsk ask : sellActionList)
             {
-                if(ask.getStock().getName().equals(stockName))
+                if((ask.getStock().getName().equals(stockName)) && (ask.getStatus() != StockActionStatus.OK))
                 {
                     stockAsks.add(ask);
                 }
