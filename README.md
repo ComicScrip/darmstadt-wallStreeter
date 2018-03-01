@@ -6,13 +6,14 @@ This project consists in 3 exercises that were assigned during this course : htt
 
 HOW TO RUN :
 (For all exercises, we require JDK Version 9)
+
 === EXERCICSE 1 ===
 
 
 	1°) Run MainServer.java
 	
 	2°) Run TCPClient.java
-	
+
 	3°) Provide informations asked in the TCPClient console
 
 === EXERCISE 2 ===
