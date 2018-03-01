@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94c1127c-ad38-44a3-b1df-72641565b06d" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/exercise2/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/exercise3/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/exercise2/src/FileLogger.java" afterPath="$PROJECT_DIR$/exercise2/src/FileLogger.java" />
-      <change beforePath="$PROJECT_DIR$/exercise2/src/MainServer.java" afterPath="$PROJECT_DIR$/exercise2/src/MainServer.java" />
-      <change beforePath="$PROJECT_DIR$/exercise2/src/PriceService.java" afterPath="$PROJECT_DIR$/exercise2/src/PriceService.java" />
-      <change beforePath="$PROJECT_DIR$/logFile.csv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise2/Broker.class" afterPath="$PROJECT_DIR$/out/production/exercise2/Broker.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise2/FileLogger.class" afterPath="$PROJECT_DIR$/out/production/exercise2/FileLogger.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise2/MainServer.class" afterPath="$PROJECT_DIR$/out/production/exercise2/MainServer.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise2/PriceService.class" afterPath="$PROJECT_DIR$/out/production/exercise2/PriceService.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,12 +16,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PriceService.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PriceService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercise2/src/PriceService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="68" column="48" lean-forward="true" selection-start-line="68" selection-start-column="48" selection-end-line="68" selection-end-column="48" />
-              <folding />
+            <state relative-caret-position="486">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding>
+                <marker date="1519889166047" expanded="true" signature="5388:5394" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -35,10 +31,10 @@
       <file leaf-file-name="MainServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercise2/src/MainServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+            <state relative-caret-position="306">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1519889166040" expanded="true" signature="238:653" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -47,7 +43,7 @@
       <file leaf-file-name="SocketServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercise2/src/SocketServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="324">
               <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
               <folding />
             </state>
@@ -57,8 +53,8 @@
       <file leaf-file-name="StockActionService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercise2/src/StockActionService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="61" column="37" lean-forward="true" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
+            <state relative-caret-position="1026">
+              <caret line="61" column="39" lean-forward="false" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -67,29 +63,28 @@
       <file leaf-file-name="Broker.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercise2/src/Broker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="125" column="37" lean-forward="false" selection-start-line="125" selection-start-column="18" selection-end-line="125" selection-end-column="37" />
-              <folding>
-                <element signature="e#393#394#0" expanded="true" />
-                <element signature="e#429#430#0" expanded="true" />
-                <element signature="e#483#484#0" expanded="true" />
-                <element signature="e#520#521#0" expanded="true" />
-                <element signature="e#591#592#0" expanded="true" />
-                <element signature="e#641#642#0" expanded="true" />
-                <element signature="e#714#715#0" expanded="true" />
-                <element signature="e#766#767#0" expanded="true" />
-                <element signature="e#3564#3565#0" expanded="true" />
-                <element signature="e#3623#3624#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="182">
+              <caret line="94" column="9" lean-forward="false" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Message.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise2/src/Message.java">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercise2/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="0">
+              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exercise3/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -98,24 +93,9 @@
       <file leaf-file-name="XMLRPCServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercise2/src/XMLRPCServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="288">
               <caret line="21" column="52" lean-forward="false" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileLogger.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise2/src/FileLogger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-              <folding>
-                <element signature="e#825#826#0" expanded="true" />
-                <element signature="e#861#862#0" expanded="true" />
-                <element signature="e#919#920#0" expanded="true" />
-                <element signature="e#969#970#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -184,6 +164,7 @@
         <option value="$PROJECT_DIR$/exercise2/src/FileLogger.java" />
         <option value="$PROJECT_DIR$/exercise2/src/Broker.java" />
         <option value="$PROJECT_DIR$/exercise2/src/PriceService.java" />
+        <option value="$PROJECT_DIR$/exercise2/.gitignore" />
       </list>
     </option>
   </component>
@@ -215,8 +196,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,33 +211,16 @@
             <path>
               <item name="darmstadt-wallStreeter" type="b2602c69:ProjectViewProjectNode" />
               <item name="darmstadt-wallStreeter" type="462c0819:PsiDirectoryNode" />
-              <item name="exercise2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="darmstadt-wallStreeter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="darmstadt-wallStreeter" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="darmstadt-wallStreeter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="darmstadt-wallStreeter" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="darmstadt-wallStreeter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="darmstadt-wallStreeter" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="exercise2" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -271,10 +233,6 @@
     <property name="SearchEverywhereHistoryKey" value="trader&#9;FILE&#9;file://C:/Users/Pedro/IdeaProjects/darmstadt-wallStreeter/exercise1/Trader.java&#10;mess&#9;FILE&#9;file://C:/Users/Pedro/IdeaProjects/darmstadt-wallStreeter/exercise1/MessageHeaderField.java" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Pedro\IdeaProjects\darmstadt-wallStreeter\exo1\src" />
-      <recent name="C:\Users\Pedro\IdeaProjects\darmstadt-wallStreeter\exercise2" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -285,6 +243,1056 @@
       <recent name="C:\Users\Pedro\IdeaProjects\darmstadt-wallStreeter\exercise2\src" />
       <recent name="C:\Users\Pedro\IdeaProjects\darmstadt-wallStreeter\exercise1\exercise2" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Pedro\IdeaProjects\darmstadt-wallStreeter\exercise3" />
+      <recent name="C:\Users\Pedro\IdeaProjects\darmstadt-wallStreeter\exercise2" />
+      <recent name="C:\Users\Pedro\IdeaProjects\darmstadt-wallStreeter\exo1\src" />
+    </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/src/Broker.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/src/FileLogger.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/src/MainServer.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/src/PriceService.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/logFile.csv</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/exercise2/Broker.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/exercise2/FileLogger.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/exercise2/MainServer.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/exercise2/PriceService.class</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/LICENSE.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/NOTICE.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/advanced.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/allclasses-frame.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/allclasses-noframe.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/constant-values.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/deprecated-list.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/help-doc.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/index-all.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/options</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/XmlRpcConfig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/XmlRpcConfigImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/XmlRpcException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/XmlRpcHandler.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/XmlRpcRequest.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/XmlRpcRequestConfig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/class-use/XmlRpcConfig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/class-use/XmlRpcConfigImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/class-use/XmlRpcException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/class-use/XmlRpcHandler.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/class-use/XmlRpcRequest.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/class-use/XmlRpcRequestConfig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/AsyncCallback.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/TimingOutCallback.TimeoutException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/TimingOutCallback.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcClient.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcClientConfig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcClientConfigImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcClientDefaults.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcClientException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcClientRequestImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcClientWorker.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcClientWorkerFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcCommonsTransport.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcCommonsTransportFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcHttpClientConfig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcHttpTransport.ByteArrayReqWriter.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcHttpTransport.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcHttpTransportException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcLite14HttpTransport.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcLite14HttpTransportFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcLiteHttpTransport.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcLiteHttpTransportFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcLocalClientConfig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcLocalStreamTransport.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcLocalStreamTransportFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcLocalTransport.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcLocalTransportFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcStreamTransport.GzipReqWriter.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcStreamTransport.ReqWriter.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcStreamTransport.ReqWriterImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcStreamTransport.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcStreamTransportFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcSun14HttpTransport.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcSun14HttpTransportFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcSun15HttpTransport.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcSun15HttpTransportFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcSunHttpTransport.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcSunHttpTransportFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcTransport.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcTransportFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcTransportFactoryImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcTransportImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/AsyncCallback.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/TimingOutCallback.TimeoutException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/TimingOutCallback.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcClient.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcClientConfig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcClientConfigImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcClientDefaults.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcClientException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcClientRequestImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcClientWorker.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcClientWorkerFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcCommonsTransport.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcCommonsTransportFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcHttpClientConfig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcHttpTransport.ByteArrayReqWriter.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcHttpTransport.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcHttpTransportException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcLite14HttpTransport.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcLite14HttpTransportFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcLiteHttpTransport.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcLiteHttpTransportFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcLocalClientConfig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcLocalStreamTransport.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcLocalStreamTransportFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcLocalTransport.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcLocalTransportFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcStreamTransport.GzipReqWriter.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcStreamTransport.ReqWriter.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcStreamTransport.ReqWriterImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcStreamTransport.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcStreamTransportFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcSun14HttpTransport.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcSun14HttpTransportFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcSun15HttpTransport.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcSun15HttpTransportFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcSunHttpTransport.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcSunHttpTransportFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcTransport.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcTransportFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcTransportFactoryImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcTransportImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/package-frame.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/package-summary.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/package-tree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/package-use.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/util/ClientFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/util/class-use/ClientFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/util/package-frame.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/util/package-summary.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/util/package-tree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/util/package-use.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/LocalStreamConnection.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/ServerStreamConnection.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/TypeConverter.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/TypeConverterFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/TypeConverterFactoryImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/TypeFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/TypeFactoryImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcController.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcExtensionException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcHttpConfig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcHttpRequestConfig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcHttpRequestConfigImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcInvocationException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcLoadException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcNotAuthorizedException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcRequestProcessor.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcRequestProcessorFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcStreamConfig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcStreamRequestConfig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcStreamRequestProcessor.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcWorker.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcWorkerFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/LocalStreamConnection.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/ServerStreamConnection.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/TypeConverter.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/TypeConverterFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/TypeConverterFactoryImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/TypeFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/TypeFactoryImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcController.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcExtensionException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcHttpConfig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcHttpRequestConfig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcHttpRequestConfigImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcInvocationException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcLoadException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcNotAuthorizedException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcRequestProcessor.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcRequestProcessorFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcStreamConfig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcStreamRequestConfig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcStreamRequestProcessor.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcWorker.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcWorkerFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/package-frame.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/package-summary.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/package-tree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/package-use.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/jaxb/JaxbParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/jaxb/JaxbSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/jaxb/JaxbTypeFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/jaxb/class-use/JaxbParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/jaxb/class-use/JaxbSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/jaxb/class-use/JaxbTypeFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/jaxb/package-frame.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/jaxb/package-summary.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/jaxb/package-tree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/jaxb/package-use.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/ReflectiveXmlRpcMetaDataHandler.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/Util.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/XmlRpcListableHandlerMapping.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/XmlRpcMetaDataHandler.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/XmlRpcSystemImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/class-use/ReflectiveXmlRpcMetaDataHandler.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/class-use/Util.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/class-use/XmlRpcListableHandlerMapping.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/class-use/XmlRpcMetaDataHandler.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/class-use/XmlRpcSystemImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/package-frame.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/package-summary.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/package-tree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/package-use.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/package-frame.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/package-summary.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/package-tree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/package-use.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/AtomicParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/BigDecimalParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/BigIntegerParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/BooleanParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/ByteArrayParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/CalendarParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/DateParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/DoubleParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/ExtParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/FloatParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/I1Parser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/I2Parser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/I4Parser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/I8Parser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/LongParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/MapParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/NodeParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/NullParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/ObjectArrayParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/RecursiveTypeParserImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/SerializableParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/StringParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/TypeParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/TypeParserImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/XmlRpcRequestParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/XmlRpcResponseParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/AtomicParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/BigDecimalParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/BigIntegerParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/BooleanParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/ByteArrayParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/CalendarParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/DateParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/DoubleParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/ExtParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/FloatParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/I1Parser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/I2Parser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/I4Parser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/I8Parser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/LongParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/MapParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/NodeParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/NullParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/ObjectArrayParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/RecursiveTypeParserImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/SerializableParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/StringParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/TypeParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/TypeParserImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/XmlRpcRequestParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/XmlRpcResponseParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/package-frame.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/package-summary.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/package-tree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/package-use.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/BaseXmlWriterFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/BigDecimalSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/BigIntegerSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/BooleanSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/ByteArraySerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/CalendarSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/CharSetXmlWriterFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/DateSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/DefaultXMLWriterFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/DoubleSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/ExtSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/FloatSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/I1Serializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/I2Serializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/I4Serializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/I8Serializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/ListSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/MapSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/NodeSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/NullSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/ObjectArraySerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/SerializableSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/StringSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/TypeSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/TypeSerializerImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/XmlRpcWriter.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/XmlWriterFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/BaseXmlWriterFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/BigDecimalSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/BigIntegerSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/BooleanSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/ByteArraySerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/CalendarSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/CharSetXmlWriterFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/DateSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/DefaultXMLWriterFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/DoubleSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/ExtSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/FloatSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/I1Serializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/I2Serializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/I4Serializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/I8Serializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/ListSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/MapSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/NodeSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/NullSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/ObjectArraySerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/SerializableSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/StringSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/TypeSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/TypeSerializerImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/XmlRpcWriter.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/XmlWriterFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/package-frame.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/package-summary.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/package-tree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/package-use.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/AbstractReflectiveHandlerMapping.AuthenticationHandler.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/AbstractReflectiveHandlerMapping.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/PropertyHandlerMapping.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/ReflectiveXmlRpcHandler.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/RequestProcessorFactoryFactory.RequestProcessorFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/RequestProcessorFactoryFactory.RequestSpecificProcessorFactoryFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/RequestProcessorFactoryFactory.StatelessProcessorFactoryFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/RequestProcessorFactoryFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/ServerHttpConnection.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcErrorLogger.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcHandlerMapping.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcHttpServer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcHttpServerConfig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcLocalStreamServer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcNoSuchHandlerException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcServer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcServerConfig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcServerConfigImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcServerWorker.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcServerWorkerFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcStreamServer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/AbstractReflectiveHandlerMapping.AuthenticationHandler.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/AbstractReflectiveHandlerMapping.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/PropertyHandlerMapping.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/ReflectiveXmlRpcHandler.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/RequestProcessorFactoryFactory.RequestProcessorFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/RequestProcessorFactoryFactory.RequestSpecificProcessorFactoryFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/RequestProcessorFactoryFactory.StatelessProcessorFactoryFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/RequestProcessorFactoryFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/ServerHttpConnection.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcErrorLogger.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcHandlerMapping.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcHttpServer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcHttpServerConfig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcLocalStreamServer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcNoSuchHandlerException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcServer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcServerConfig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcServerConfigImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcServerWorker.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcServerWorkerFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcStreamServer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/package-frame.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/package-summary.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/package-tree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/package-use.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/HttpUtil.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/LimitedInputStream.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/ReflectionUtil.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/SAXParsers.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/ThreadPool.InterruptableTask.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/ThreadPool.Task.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/ThreadPool.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/XmlRpcDateTimeDateFormat.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/XmlRpcDateTimeFormat.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/XmlRpcIOException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/class-use/HttpUtil.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/class-use/LimitedInputStream.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/class-use/ReflectionUtil.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/class-use/SAXParsers.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/class-use/ThreadPool.InterruptableTask.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/class-use/ThreadPool.Task.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/class-use/ThreadPool.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/class-use/XmlRpcDateTimeDateFormat.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/class-use/XmlRpcDateTimeFormat.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/class-use/XmlRpcIOException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/package-frame.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/package-summary.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/package-tree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/package-use.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/Connection.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/HttpServletRequestImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/HttpServletResponseImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/RequestData.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/ServletConnection.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/ServletWebServer.Exception.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/ServletWebServer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/WebServer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/XmlRpcServlet.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/XmlRpcServletServer.ServletStreamConnection.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/XmlRpcServletServer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/class-use/Connection.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/class-use/HttpServletRequestImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/class-use/HttpServletResponseImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/class-use/RequestData.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/class-use/ServletConnection.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/class-use/ServletWebServer.Exception.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/class-use/ServletWebServer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/class-use/WebServer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/class-use/XmlRpcServlet.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/class-use/XmlRpcServletServer.ServletStreamConnection.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/class-use/XmlRpcServletServer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/package-frame.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/package-summary.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/package-tree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/package-use.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/overview-frame.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/overview-summary.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/overview-tree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/package-list</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/packages</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/resources/inherit.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/serialized-form.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/apidocs/stylesheet.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/changes-report.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/client.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/contributing.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/css/maven-base.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/css/maven-theme.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/css/print.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/css/site.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/dependencies.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/dependency-convergence.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/dependency-management.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/download.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/extensions.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/faq.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/images/add.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/images/close.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/images/collapsed.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/images/expanded.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/images/external.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/images/fix.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/images/icon_error_sml.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/images/icon_help_sml.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/images/icon_info_sml.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/images/icon_success_sml.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/images/icon_warning_sml.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/images/logos/build-by-maven-black.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/images/logos/build-by-maven-white.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/images/logos/maven-feather.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/images/newwindow.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/images/remove.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/images/rss.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/images/update.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/integration.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/introspection.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/issue-tracking.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/license.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/links.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/mail-lists.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/plugin-management.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/plugins.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/project-info.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/project-reports.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/project-summary.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/rat-report.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/server.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/source-repository.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/ssl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/team-list.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/docs/types.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/lib/commons-logging-1.1.jar</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/lib/ws-commons-util-1.0.2.jar</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/lib/xmlrpc-client-3.1.3.jar</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/lib/xmlrpc-common-3.1.3.jar</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/lib/xmlrpc-server-3.1.3.jar</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/LICENSE.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/NOTICE.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/advanced.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/allclasses-frame.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/allclasses-noframe.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/constant-values.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/deprecated-list.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/help-doc.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/index-all.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/options</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/XmlRpcConfig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/XmlRpcConfigImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/XmlRpcException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/XmlRpcHandler.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/XmlRpcRequest.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/XmlRpcRequestConfig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/class-use/XmlRpcConfig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/class-use/XmlRpcConfigImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/class-use/XmlRpcException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/class-use/XmlRpcHandler.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/class-use/XmlRpcRequest.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/class-use/XmlRpcRequestConfig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/AsyncCallback.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/TimingOutCallback.TimeoutException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/TimingOutCallback.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcClient.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcClientConfig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcClientConfigImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcClientDefaults.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcClientException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcClientRequestImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcClientWorker.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcClientWorkerFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcCommonsTransport.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcCommonsTransportFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcHttpClientConfig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcHttpTransport.ByteArrayReqWriter.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcHttpTransport.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcHttpTransportException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcLite14HttpTransport.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcLite14HttpTransportFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcLiteHttpTransport.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcLiteHttpTransportFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcLocalClientConfig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcLocalStreamTransport.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcLocalStreamTransportFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcLocalTransport.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcLocalTransportFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcStreamTransport.GzipReqWriter.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcStreamTransport.ReqWriter.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcStreamTransport.ReqWriterImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcStreamTransport.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcStreamTransportFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcSun14HttpTransport.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcSun14HttpTransportFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcSun15HttpTransport.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcSun15HttpTransportFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcSunHttpTransport.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcSunHttpTransportFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcTransport.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcTransportFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcTransportFactoryImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/XmlRpcTransportImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/AsyncCallback.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/TimingOutCallback.TimeoutException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/TimingOutCallback.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcClient.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcClientConfig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcClientConfigImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcClientDefaults.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcClientException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcClientRequestImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcClientWorker.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcClientWorkerFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcCommonsTransport.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcCommonsTransportFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcHttpClientConfig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcHttpTransport.ByteArrayReqWriter.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcHttpTransport.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcHttpTransportException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcLite14HttpTransport.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcLite14HttpTransportFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcLiteHttpTransport.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcLiteHttpTransportFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcLocalClientConfig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcLocalStreamTransport.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcLocalStreamTransportFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcLocalTransport.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcLocalTransportFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcStreamTransport.GzipReqWriter.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcStreamTransport.ReqWriter.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcStreamTransport.ReqWriterImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcStreamTransport.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcStreamTransportFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcSun14HttpTransport.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcSun14HttpTransportFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcSun15HttpTransport.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcSun15HttpTransportFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcSunHttpTransport.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcSunHttpTransportFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcTransport.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcTransportFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcTransportFactoryImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/class-use/XmlRpcTransportImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/package-frame.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/package-summary.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/package-tree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/package-use.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/util/ClientFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/util/class-use/ClientFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/util/package-frame.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/util/package-summary.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/util/package-tree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/client/util/package-use.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/LocalStreamConnection.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/ServerStreamConnection.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/TypeConverter.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/TypeConverterFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/TypeConverterFactoryImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/TypeFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/TypeFactoryImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcController.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcExtensionException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcHttpConfig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcHttpRequestConfig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcHttpRequestConfigImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcInvocationException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcLoadException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcNotAuthorizedException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcRequestProcessor.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcRequestProcessorFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcStreamConfig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcStreamRequestConfig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcStreamRequestProcessor.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcWorker.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/XmlRpcWorkerFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/LocalStreamConnection.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/ServerStreamConnection.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/TypeConverter.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/TypeConverterFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/TypeConverterFactoryImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/TypeFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/TypeFactoryImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcController.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcExtensionException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcHttpConfig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcHttpRequestConfig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcHttpRequestConfigImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcInvocationException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcLoadException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcNotAuthorizedException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcRequestProcessor.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcRequestProcessorFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcStreamConfig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcStreamRequestConfig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcStreamRequestProcessor.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcWorker.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/class-use/XmlRpcWorkerFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/package-frame.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/package-summary.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/package-tree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/common/package-use.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/jaxb/JaxbParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/jaxb/JaxbSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/jaxb/JaxbTypeFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/jaxb/class-use/JaxbParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/jaxb/class-use/JaxbSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/jaxb/class-use/JaxbTypeFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/jaxb/package-frame.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/jaxb/package-summary.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/jaxb/package-tree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/jaxb/package-use.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/ReflectiveXmlRpcMetaDataHandler.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/Util.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/XmlRpcListableHandlerMapping.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/XmlRpcMetaDataHandler.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/XmlRpcSystemImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/class-use/ReflectiveXmlRpcMetaDataHandler.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/class-use/Util.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/class-use/XmlRpcListableHandlerMapping.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/class-use/XmlRpcMetaDataHandler.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/class-use/XmlRpcSystemImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/package-frame.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/package-summary.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/package-tree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/metadata/package-use.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/package-frame.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/package-summary.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/package-tree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/package-use.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/AtomicParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/BigDecimalParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/BigIntegerParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/BooleanParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/ByteArrayParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/CalendarParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/DateParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/DoubleParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/ExtParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/FloatParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/I1Parser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/I2Parser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/I4Parser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/I8Parser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/LongParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/MapParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/NodeParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/NullParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/ObjectArrayParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/RecursiveTypeParserImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/SerializableParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/StringParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/TypeParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/TypeParserImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/XmlRpcRequestParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/XmlRpcResponseParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/AtomicParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/BigDecimalParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/BigIntegerParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/BooleanParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/ByteArrayParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/CalendarParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/DateParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/DoubleParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/ExtParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/FloatParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/I1Parser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/I2Parser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/I4Parser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/I8Parser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/LongParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/MapParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/NodeParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/NullParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/ObjectArrayParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/RecursiveTypeParserImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/SerializableParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/StringParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/TypeParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/TypeParserImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/XmlRpcRequestParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/class-use/XmlRpcResponseParser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/package-frame.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/package-summary.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/package-tree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/parser/package-use.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/BaseXmlWriterFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/BigDecimalSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/BigIntegerSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/BooleanSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/ByteArraySerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/CalendarSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/CharSetXmlWriterFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/DateSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/DefaultXMLWriterFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/DoubleSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/ExtSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/FloatSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/I1Serializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/I2Serializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/I4Serializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/I8Serializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/ListSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/MapSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/NodeSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/NullSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/ObjectArraySerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/SerializableSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/StringSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/TypeSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/TypeSerializerImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/XmlRpcWriter.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/XmlWriterFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/BaseXmlWriterFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/BigDecimalSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/BigIntegerSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/BooleanSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/ByteArraySerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/CalendarSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/CharSetXmlWriterFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/DateSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/DefaultXMLWriterFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/DoubleSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/ExtSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/FloatSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/I1Serializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/I2Serializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/I4Serializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/I8Serializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/ListSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/MapSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/NodeSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/NullSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/ObjectArraySerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/SerializableSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/StringSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/TypeSerializer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/TypeSerializerImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/XmlRpcWriter.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/class-use/XmlWriterFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/package-frame.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/package-summary.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/package-tree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/serializer/package-use.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/AbstractReflectiveHandlerMapping.AuthenticationHandler.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/AbstractReflectiveHandlerMapping.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/PropertyHandlerMapping.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/ReflectiveXmlRpcHandler.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/RequestProcessorFactoryFactory.RequestProcessorFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/RequestProcessorFactoryFactory.RequestSpecificProcessorFactoryFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/RequestProcessorFactoryFactory.StatelessProcessorFactoryFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/RequestProcessorFactoryFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/ServerHttpConnection.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcErrorLogger.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcHandlerMapping.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcHttpServer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcHttpServerConfig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcLocalStreamServer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcNoSuchHandlerException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcServer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcServerConfig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcServerConfigImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcServerWorker.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcServerWorkerFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/XmlRpcStreamServer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/AbstractReflectiveHandlerMapping.AuthenticationHandler.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/AbstractReflectiveHandlerMapping.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/PropertyHandlerMapping.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/ReflectiveXmlRpcHandler.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/RequestProcessorFactoryFactory.RequestProcessorFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/RequestProcessorFactoryFactory.RequestSpecificProcessorFactoryFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/RequestProcessorFactoryFactory.StatelessProcessorFactoryFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/RequestProcessorFactoryFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/ServerHttpConnection.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcErrorLogger.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcHandlerMapping.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcHttpServer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcHttpServerConfig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcLocalStreamServer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcNoSuchHandlerException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcServer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcServerConfig.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcServerConfigImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcServerWorker.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcServerWorkerFactory.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/class-use/XmlRpcStreamServer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/package-frame.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/package-summary.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/package-tree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/server/package-use.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/HttpUtil.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/LimitedInputStream.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/ReflectionUtil.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/SAXParsers.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/ThreadPool.InterruptableTask.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/ThreadPool.Task.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/ThreadPool.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/XmlRpcDateTimeDateFormat.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/XmlRpcDateTimeFormat.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/XmlRpcIOException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/class-use/HttpUtil.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/class-use/LimitedInputStream.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/class-use/ReflectionUtil.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/class-use/SAXParsers.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/class-use/ThreadPool.InterruptableTask.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/class-use/ThreadPool.Task.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/class-use/ThreadPool.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/class-use/XmlRpcDateTimeDateFormat.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/class-use/XmlRpcDateTimeFormat.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/class-use/XmlRpcIOException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/package-frame.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/package-summary.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/package-tree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/util/package-use.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/Connection.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/HttpServletRequestImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/HttpServletResponseImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/RequestData.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/ServletConnection.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/ServletWebServer.Exception.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/ServletWebServer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/WebServer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/XmlRpcServlet.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/XmlRpcServletServer.ServletStreamConnection.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/XmlRpcServletServer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/class-use/Connection.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/class-use/HttpServletRequestImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/class-use/HttpServletResponseImpl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/class-use/RequestData.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/class-use/ServletConnection.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/class-use/ServletWebServer.Exception.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/class-use/ServletWebServer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/class-use/WebServer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/class-use/XmlRpcServlet.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/class-use/XmlRpcServletServer.ServletStreamConnection.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/class-use/XmlRpcServletServer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/package-frame.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/package-summary.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/package-tree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/org/apache/xmlrpc/webserver/package-use.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/overview-frame.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/overview-summary.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/overview-tree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/package-list</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/packages</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/resources/inherit.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/serialized-form.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/apidocs/stylesheet.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/changes-report.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/client.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/contributing.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/css/maven-base.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/css/maven-theme.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/css/print.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/css/site.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/dependencies.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/dependency-convergence.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/dependency-management.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/download.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/extensions.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/faq.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/images/add.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/images/close.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/images/collapsed.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/images/expanded.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/images/external.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/images/fix.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/images/icon_error_sml.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/images/icon_help_sml.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/images/icon_info_sml.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/images/icon_success_sml.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/images/icon_warning_sml.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/images/logos/build-by-maven-black.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/images/logos/build-by-maven-white.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/images/logos/maven-feather.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/images/newwindow.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/images/remove.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/images/rss.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/images/update.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/integration.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/introspection.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/issue-tracking.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/license.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/links.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/mail-lists.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/plugin-management.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/plugins.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/project-info.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/project-reports.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/project-summary.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/rat-report.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/server.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/source-repository.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/ssl.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/team-list.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/docs/types.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/lib/commons-logging-1.1.jar</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/lib/ws-commons-util-1.0.2.jar</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/lib/xmlrpc-client-3.1.3.jar</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/lib/xmlrpc-common-3.1.3.jar</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercise3/apache-xmlrpc-3.1.3/lib/xmlrpc-server-3.1.3.jar</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -624,7 +1632,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66903000" />
+    <option name="totallyTimeSpent" value="67590000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -641,31 +1649,51 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29533115" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29585153" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19296375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3941048" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3941048" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3941048" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29533115" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19296375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -821,20 +1849,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/exercise1/src/StockBid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="95" lean-forward="true" selection-start-line="5" selection-start-column="95" selection-end-line="5" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise1/src/StockAsk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exercise1/src/Stock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -1097,16 +2111,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/lib/xmlrpc-client-3.1.3.jar!/org/apache/xmlrpc/client/XmlRpcStreamTransport.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$PROJECT_DIR$/exercise2/lib/apache-xmlrpc-3.1.3/lib/xmlrpc-client-3.1.3.jar!/org/apache/xmlrpc/client/XmlRpcStreamTransport.class" />
     <entry file="file://$PROJECT_DIR$/exercise2/src/XMLRPCServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="288">
           <caret line="21" column="52" lean-forward="false" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
           <folding />
         </state>
@@ -1114,7 +2122,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exercise2/src/SocketServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="324">
           <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
           <folding />
         </state>
@@ -1124,7 +2132,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1132,14 +2139,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exercise2/src/StockActionService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="61" column="37" lean-forward="true" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
+        <state relative-caret-position="1026">
+          <caret line="61" column="39" lean-forward="false" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -1149,47 +2155,54 @@
         <state relative-caret-position="51">
           <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
           <folding>
-            <element signature="e#825#826#0" expanded="true" />
-            <element signature="e#861#862#0" expanded="true" />
-            <element signature="e#919#920#0" expanded="true" />
-            <element signature="e#969#970#0" expanded="true" />
+            <element signature="e#825#826#0" expanded="false" />
+            <element signature="e#861#862#0" expanded="false" />
+            <element signature="e#919#920#0" expanded="false" />
+            <element signature="e#969#970#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exercise2/src/MainServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        <state relative-caret-position="306">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1519889166040" expanded="true" signature="238:653" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exercise2/src/Broker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="125" column="37" lean-forward="false" selection-start-line="125" selection-start-column="18" selection-end-line="125" selection-end-column="37" />
-          <folding>
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-            <element signature="e#3564#3565#0" expanded="true" />
-            <element signature="e#3623#3624#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="182">
+          <caret line="94" column="9" lean-forward="false" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exercise2/src/PriceService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="68" column="48" lean-forward="true" selection-start-line="68" selection-start-column="48" selection-end-line="68" selection-end-column="48" />
+        <state relative-caret-position="486">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <marker date="1519889166047" expanded="true" signature="5388:5394" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise2/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise3/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
           <folding />
         </state>
       </provider>
