@@ -5,7 +5,7 @@ This project consists in 3 exercises that were assigned during this course : htt
 (Each exercise has been implemented in its own package/folder)
 
 HOW TO RUN :
-(For all exercises, we require JDK Version 9)
+(For all exercises, JDK Version 9 is required)
 
 === EXERCICSE 1 ===
 
@@ -14,7 +14,7 @@ HOW TO RUN :
 	
 	2°) Run TCPClient.java
 
-	3°) Provide informations asked in the TCPClient console
+	3°) Provide information asked in the TCPClient console
 
 === EXERCISE 2 ===
 
@@ -24,11 +24,11 @@ HOW TO RUN :
 	
 	1°) Run MainServer.java
 
-	2°) This is possible to run TCPClient.java (in order to add some entry into the logfile.csv)
+	2°) It is possible to run TCPClient.java (in order to add some entry into the logfile.csv)
 
-	3°) Adapt the IP address in PriceService.java if necessary (l.42) and run it
+	3°) Adapt the IP address in PriceService.java if necessary (change line 42) and run it
 
-	4°) Provide informations asked in the TCPClient console
+	4°) Provide information asked in the TCPClient console
 
 === EXERCISE 3 ===
 
@@ -55,6 +55,6 @@ HOW TO RUN :
 		- this will initiate multiple TCP clients. Some being "zero intelligence" traders (as in exercise 1), and other being Cyclic/Acyclic traders waiting for news.
 	
 	4°) Run Journalist.java
-		- this will start publishig news to the message queue the Cyclic/acyclic traders are subscribed to.
+		- this will start publishing news to the message queue the Cyclic/acyclic traders are subscribed to.
 		
 	5°) Now you should see asks and bids being sent as good/bad news arrives. In the meantime, you can use the user interface of a "zero intelligence" trader to build your ask/bids as you wish.

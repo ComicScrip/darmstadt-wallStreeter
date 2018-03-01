@@ -22,7 +22,7 @@ public class PriceService {
         String dateAfter = "";
         String stockSelected = "";
         XmlRpcClientConfigImpl config = new XmlRpcClientConfigImpl();
-        config.setServerURL(new URL("http://127.0.0.1:8080/xmlrpc"));
+        config.setServerURL(new URL("http://localhost/xmlrpc"));
         XmlRpcClient client = new XmlRpcClient();
         client.setConfig(config);
 
