@@ -5,16 +5,16 @@ This project consists in 3 exercises that were assigned during this course : htt
 (Each exercise has been implemented in its own package/folder)
 
 HOW TO RUN :
-(For all exercises, we require JDK Version 9)
+(For all exercises, JDK Version 9 is required)
 
 === EXERCICSE 1 ===
 
 
 	1°) Run MainServer.java
 	
-	2°) Run TCPClient.java
+	2°) Run TCPClient.java (ip_address:9999)
 
-	3°) Provide informations asked in the TCPClient console
+	3°) Provide information asked in the TCPClient console
 
 === EXERCISE 2 ===
 
@@ -24,11 +24,11 @@ HOW TO RUN :
 	
 	1°) Run MainServer.java
 
-	2°) This is possible to run TCPClient.java (in order to add some entry into the logfile.csv)
+	2°) It is possible to run TCPClient.java (in order to add some entry into the logfile.csv)
 
-	3°) Adapt the IP address in PriceService.java if necessary (l.42) and run it
+	3°) Adapt the IP address in PriceService.java if necessary (change line 42 with port 8080) and run it
 
-	4°) Provide informations asked in the TCPClient console
+	4°) Provide information asked in the TCPClient console  (Dates range is exclusive)
 
 === EXERCISE 3 ===
 

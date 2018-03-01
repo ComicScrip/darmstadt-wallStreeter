@@ -6,5 +6,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="lib2" level="project" />
+    <orderEntry type="library" name="javax.annotation" level="project" />
+    <orderEntry type="library" name="activemq-broker-5.15.3" level="project" />
   </component>
 </module>
