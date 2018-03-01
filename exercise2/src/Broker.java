@@ -213,8 +213,8 @@ public class Broker {
             }
         }
     }
-    public String searchActionPerDates(String dMin, String dMax, String actionName) {
-        return fileLogger.searchLogFile(dMin, dMax, actionName);
+    public String searchActionPerDates(String dMin, String dMax, String actionName, Boolean minimize) {
+        return fileLogger.searchLogFile(dMin, dMax, actionName, minimize);
     }
 
     public String searchActionPerName(String actionName) {

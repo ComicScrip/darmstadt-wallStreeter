@@ -5,8 +5,9 @@ This project consists in 3 exercises that were assigned during this course : htt
 (Each exercise has been implemented in its own package/folder)
 
 HOW TO RUN :
-
+(For all exercises, we require JDK Version 9)
 === EXERCICSE 1 ===
+
 
 	1°) Run MainServer.java
 	
@@ -17,7 +18,6 @@ HOW TO RUN :
 === EXERCISE 2 ===
 
 	0°) Requirements :
-		- JDK Version 9
 		- Include following libraries in your project and change the CLASSPATH consequently :
 			--> apache-xmlrpc-3.1.3 or higher (https://ws.apache.org/xmlrpc/xmlrpc2/download.html)
 	
@@ -26,7 +26,6 @@ HOW TO RUN :
 === EXERCISE 3 ===
 
 	0°) Requirements :
-		- JDK Version 9
 		- Include following libraries in your project and change the CLASSPATH consequently :
 			--> apacha-activemq-5.15.3 (http://activemq.apache.org/download.html)
 		- Include the following jars in your project and change the CLASSPATH consequently :

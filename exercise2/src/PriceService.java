@@ -20,7 +20,6 @@ public class PriceService {
     //Checks if the dates entered by the user are valid 
     public static boolean isValid(String text) {
         if (text == null || !text.matches("^(0?[1-9]|[12][0-9]|3[01])[\\/\\-](0?[1-9]|1[012])[\\/\\-]\\d{4}$")){
-            System.out.println("text null or regex not matched, text : " + text + " match is : " +  text.matches("^(0?[1-9]|[12][0-9]|3[01])[\\/\\-](0?[1-9]|1[012])[\\/\\-]\\d{4}$"));
             return false;
         }
 
@@ -28,7 +27,6 @@ public class PriceService {
         df.setLenient(false);
         try {
             df.parse(text);
-            System.out.println("df : " +df);
             return true;
         } catch (ParseException ex) {
             return false;
@@ -66,7 +64,6 @@ public class PriceService {
                                 {
                                     int ordinal = Integer.parseInt(line);
                                     stockSelected = StockName.values()[ordinal].name();
-                                    System.out.println("StockSelected : " + stockSelected);
                                     Object[] params = new Object[]{new String(stockSelected)};
 
                                     String result =  (String) client.execute("Broker.searchActionPerName", params);
@@ -119,11 +116,20 @@ public class PriceService {
 
                                             }
 
-                                            System.out.println("dateAfter : " + dateAfter + "\n" + " dateBefore : " + dateBefore);
-                                            Object[] params = new Object[]{new String(dateAfter), new String(dateBefore), new String(stockSelected)};
+                                            do {
+                                                user.output("Please select betwenn these options : (1) Ask for a sample (2) Ask for all results : ");
+                                                line = user.input();
+                                            } while (!(line.equals("1")) && !(line.equals("2")));
 
+
+                                            Boolean toMinimize = true;
+                                            if(line.equals("2")) {
+                                                toMinimize = false;
+                                            }
+                                            Object[] params = new Object[]{dateAfter, dateBefore, stockSelected, toMinimize};
+                                            System.out.println("dateAfter : " + dateAfter + "\n" + " dateBefore : " + dateBefore);
                                             String result =  (String) client.execute("Broker.searchActionPerDates", params);
-                                            System.out.println("Liste des transactions de " + params[2] + ":\n" + result );
+                                            System.out.println("List of transactions from " + params[2] + ":\n" + result );
                                             break;
                                         }
                                     }
