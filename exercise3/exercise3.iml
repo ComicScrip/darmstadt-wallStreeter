@@ -12,5 +12,6 @@
     <orderEntry type="library" name="lib2" level="project" />
     <orderEntry type="library" name="apachemq" level="project" />
     <orderEntry type="library" name="apache-activemq-5.15" level="project" />
+    <orderEntry type="library" name="activemq-broker-5.15.3" level="project" />
   </component>
 </module>
