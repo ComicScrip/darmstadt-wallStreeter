@@ -8,8 +8,16 @@ public class FileLogger {
     private File textFile;
     private FileWriter fileWriter;
 
-    public FileLogger(String pathToLogFile) {
+    public FileLogger(String pathToLogFile){
         this.pathToLogFile = pathToLogFile;
+        textFile = new File(pathToLogFile);
+        try {
+            textFile.createNewFile();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        /*textFile.getParentFile().mkdirs();
+        textFile.createNewFile();*/
     }
 
     public String getPathToLogFile() {
@@ -23,8 +31,6 @@ public class FileLogger {
     //Writes the stockname and the stockprice to the logFile
     public void writeToFile(String stockName, String stockPrice){
         try{
-
-            textFile = new File(pathToLogFile);
             fileWriter = new FileWriter(textFile, true);
             DateFormat df = new SimpleDateFormat("dd/MM/yy HH:mm:ss");
             Date dateobj = new Date();
@@ -40,8 +46,54 @@ public class FileLogger {
         }
     }
 
+    //Search the last-writed specified stock transaction
+    public String searchLogFile(String actionName){
+        //Input file which needs to be parsed
+        String fileToParse = pathToLogFile;
+        BufferedReader fileReader = null;
+
+
+        //Delimiter used in CSV file
+        final String DELIMITER = ";";
+        try
+        {
+            String lineMatched ="";
+            String line;
+            //Create the file reader
+            fileReader = new BufferedReader(new FileReader(fileToParse));
+
+            //Read the file line by line
+            while ((line = fileReader.readLine()) != null)
+            {
+                //Get all tokens available in line
+                String[] tokens = line.split(DELIMITER);
+
+                //print the token if the transaction date is between the min and max date
+                if((actionName.equals(tokens[1]))){
+                    lineMatched = ("Date : " + tokens[0] + " Nom de l'action : " + tokens[1] + " Prix : " + tokens[2]);
+                }
+            }
+            System.out.println(lineMatched);
+            return lineMatched;
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+        }
+        finally
+        {
+            try {
+                fileReader.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        return "";
+    }
+
+
+
     //Search the specified stock's data between dateMin and dateMax
-    public String searchLogFile( String dMin, String dMax, String actionName){
+    public String searchLogFile( String dMin, String dMax, String actionName, boolean minimize){
         //Input file which needs to be parsed
         String fileToParse = pathToLogFile;
         BufferedReader fileReader = null;
@@ -53,6 +105,8 @@ public class FileLogger {
         {
             String linesMatched = "";
             String line = "";
+            int minCounter = 0;  // Counter which will be incremented for each conforms lines
+
             //Create the file reader
             fileReader = new BufferedReader(new FileReader(fileToParse));
 
@@ -69,18 +123,16 @@ public class FileLogger {
                 Date dateMin = df.parse(dMin);
                 Date dateMax = df.parse(dMax);
 
-                //print the token if the transaction date is between the min and max date
+                //Affect the token if the transaction date is between the min and max date
                 if((transactionDate.after(dateMin))&&(transactionDate.before(dateMax)) && (actionName.equals(tokens[1]))){
-                    //for(String token : tokens)
-                    //{
-                        //Print all tokens
-                      //  System.out.println("Date : " + tokens[0] + " Nom de l'action : " + tokens[1] + " Prix : " + tokens[2]);
-                        linesMatched += ("Date : " + tokens[0] + " Nom de l'action : " + tokens[1] + " Prix : " + tokens[2] + "\n");
-                    //}
+                    linesMatched += ("Date : " + tokens[0] + " Nom de l'action : " + tokens[1] + " Prix : " + tokens[2] + "\n");
+                    //If the boolean minimize is set to true, the client only wants to read 10 entry
+                    if(minimize) {
+                        minCounter++;
+                        if (minCounter == 10) break;
+                    }
                 }
             }
-            System.out.println("Fonction");
-            System.out.println(linesMatched);
             return linesMatched;
         }
         catch (Exception e) {
@@ -96,16 +148,4 @@ public class FileLogger {
         }
         return "";
     }
-    /*
-   // Usage exemple of fileLogger
-   public static void main(String[] args) {
-        FileLogger fileLogger = new FileLogger("text.csv");
-        fileLogger.writeToFile("apple","100");
-        fileLogger.writeToFile("apple","200");
-        fileLogger.writeToFile("apple","300");
-        fileLogger.writeToFile("apple","400");
-        fileLogger.writeToFile("apple","500");
-        fileLogger.searchLogFile("24/02/18","25/03/18","apple");
-    }
-    */
 }

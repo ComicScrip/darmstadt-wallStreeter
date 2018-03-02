@@ -1,6 +1,6 @@
 public class NewsTraderPlatform {
-    static int NB_ACYCLIC_TRADERS = 3;
-    static int NB_CYCLIC_TRADERS = 3;
+    static int NB_ACYCLIC_TRADERS = 10;
+    static int NB_CYCLIC_TRADERS = 10;
 
     public static void main(String[] args) throws Exception {
         if(args.length >= 1) NB_CYCLIC_TRADERS = Integer.parseInt(args[0]);
